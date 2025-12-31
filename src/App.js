@@ -15,6 +15,21 @@ function App() {
     setCart([...cart, product]);
     alert(`Đã thêm ${product.name} vào giỏ!`);
   };
+  const removeFromCart = (cartId) => {
+  setCart(cart.filter(item => item.cartId !== cartId));
+};
+  {cart.map((item) => (
+  <div key={item.cartId} className="cart-item">
+    <span>{item.name}</span>
+    <span>{formatPrice(item.price)}</span>
+    <button 
+      onClick={() => removeFromCart(item.cartId)}
+      className="remove-btn"
+    >
+      Xóa
+    </button>
+  </div>
+))}
 
   const formatPrice = (price) => {
     return price.toLocaleString('vi-VN') + ' đ';
@@ -68,6 +83,7 @@ function App() {
       <footer>
         <p>© 2024 Bike Shop - Bán xe đạp online</p>
       </footer>
+      
     </div>
   );
 }
