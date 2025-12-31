@@ -176,3 +176,34 @@ footer {
     gap: 10px;
   }
 }
+.category-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.category-btn {
+  padding: 8px 16px;
+  border: 2px solid #ddd;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.category-btn.active {
+  background: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.category-btn:hover {
+  border-color: #3498db;
+}
+
+.product-card .category {
+  color: #7f8c8d;
+  font-size: 14px;
+  margin-bottom: 5px;
+}

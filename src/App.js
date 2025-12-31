@@ -2,14 +2,60 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  const products = [
-    { id: 1, name: "Xe đạp địa hình", price: 8500000, image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-    { id: 2, name: "Xe đạp đường phố", price: 6500000, image: "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-    { id: 3, name: "Xe đạp thể thao", price: 12000000, image: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-    { id: 4, name: "Xe đạp đua", price: 15000000, image: "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" }
-  ];
-
+const products = [
+  { 
+    id: 1, 
+    name: "Xe đạp địa hình", 
+    price: 8500000, 
+    image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
+    category: "Địa hình" 
+  },
+  { 
+    id: 2, 
+    name: "Xe đạp đường phố", 
+    price: 6500000, 
+    image: "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
+    category: "Đường phố" 
+  },
+  { 
+    id: 3, 
+    name: "Xe đạp thể thao", 
+    price: 12000000, 
+    image: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
+    category: "Thể thao" 
+  },
+  { 
+    id: 4, 
+    name: "Xe đạp đua", 
+    price: 15000000, 
+    image: "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
+    category: "Đua" 
+  },
+  { 
+    id: 5, 
+    name: "Xe đạp trẻ em", 
+    price: 3500000, 
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
+    category: "Trẻ em" 
+  },
+  { 
+    id: 6, 
+    name: "Xe đạp gấp", 
+    price: 7500000, 
+    image: "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60", 
+    category: "Gấp" 
+  }];
   const [cart, setCart] = useState([]);
+
+  const [selectedCategory, setSelectedCategory] = useState('Tất cả');
+  const [searchTerm, setSearchTerm] = useState('');
+  const filteredProducts = products
+  .filter(product => 
+    product.name.toLowerCase().includes(searchTerm.toLowerCase())
+  )
+  .filter(product => 
+    selectedCategory === 'Tất cả' || product.category === selectedCategory
+  );
 
   const addToCart = (product) => {
     setCart([...cart, product]);
@@ -38,7 +84,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>🚴 Bike Shop</h1>
+        <h1> Bike Shop</h1>
         <div className="cart-info">
           🛒 Giỏ hàng: {cart.length} sản phẩm
         </div>
@@ -81,7 +127,7 @@ function App() {
       </aside>
 
       <footer>
-        <p>© 2024 Bike Shop - Bán xe đạp online</p>
+        <p> 2025 Bike Shop - Bán xe đạp online</p>
       </footer>
       
     </div>
