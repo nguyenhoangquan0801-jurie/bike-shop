@@ -81,6 +81,13 @@ const products = [
   const removeFromCart = (cartId) => {
     setCart(cart.filter(item => item.cartId !== cartId));
   };
+  const clearCart = () => {
+  if (cart.length === 0) return;
+  if (window.confirm('Bạn có chắc muốn xóa toàn bộ giỏ hàng?')) {
+    setCart([]);
+    alert('Đã xóa toàn bộ giỏ hàng!');
+  }
+};
 
   const updateQuantity = (cartId, newQuantity) => {
   if (newQuantity < 1) {
@@ -189,7 +196,8 @@ const products = [
             ))}
             <div className="total">
               <strong>Tổng: {formatPrice(cart.reduce((sum, item) => sum + (item.price * item.quantity),0))}</strong>
-            </div>
+            </div >
+            <button onClick={clearCart} className="clear-cart-btn" disabled={cart.length === 0}> Xóa giỏ hàng </button>
             <button className="checkout">Thanh toán</button>
           </div>
         )}
