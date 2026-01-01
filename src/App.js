@@ -48,7 +48,9 @@ const products = [
   const [cart, setCart] = useState([]);
 
   const [selectedCategory, setSelectedCategory] = useState('Tất cả');
+
   const [searchTerm, setSearchTerm] = useState('');
+
   const filteredProducts = products
   .filter(product => 
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -58,24 +60,39 @@ const products = [
   );
 
   const addToCart = (product) => {
-    setCart([...cart, product]);
+    const existingItem = cart.find(item => item.id === product.id);
+  if (existingItem) {
+    setCart(cart.map(item => 
+      item.id === product.id 
+        ? { ...item, quantity: item.quantity + 1 }
+        : item
+    ));
+    alert(`Đã tăng số lượng ${product.name} trong giỏ!`);
+  } else {
+    setCart([...cart, { 
+      ...product, 
+      cartId: Date.now() + product.id,
+      quantity: 1 
+    }]);
     alert(`Đã thêm ${product.name} vào giỏ!`);
-  };
-  const removeFromCart = (cartId) => {
-  setCart(cart.filter(item => item.cartId !== cartId));
+  }
 };
-  {cart.map((item) => (
-  <div key={item.cartId} className="cart-item">
-    <span>{item.name}</span>
-    <span>{formatPrice(item.price)}</span>
-    <button 
-      onClick={() => removeFromCart(item.cartId)}
-      className="remove-btn"
-    >
-      Xóa
-    </button>
-  </div>
-))}
+
+  const removeFromCart = (cartId) => {
+    setCart(cart.filter(item => item.cartId !== cartId));
+  };
+
+  const updateQuantity = (cartId, newQuantity) => {
+  if (newQuantity < 1) {
+    removeFromCart(cartId);
+    return;
+  }
+  setCart(cart.map(item => 
+    item.cartId === cartId 
+      ? { ...item, quantity: newQuantity }
+      : item
+  ));
+};
 
   const formatPrice = (price) => {
     return price.toLocaleString('vi-VN') + ' đ';
@@ -92,11 +109,35 @@ const products = [
 
       <main>
         <h2>Danh sách xe đạp</h2>
+        
+        {/* Search input */}
+        <div className="search-container">
+          <input
+            type="text"
+            placeholder="Tìm kiếm xe đạp..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="search-input"
+          />
+        </div>
+  <div className="category-filter">
+  {['Tất cả', 'Địa hình', 'Đường phố', 'Thể thao', 'Đua', 'Trẻ em', 'Gấp'].map(category => (
+    <button
+      key={category}
+      className={`category-btn ${selectedCategory === category ? 'active' : ''}`}
+      onClick={() => setSelectedCategory(category)}
+    >
+      {category}
+    </button>
+  ))}
+</div>
+  {/* Products grid */}
         <div className="products">
-          {products.map(product => (
+          {filteredProducts.map(product => (
             <div key={product.id} className="product-card">
               <img src={product.image} alt={product.name} />
               <h3>{product.name}</h3>
+              <p className="category">{product.category}</p>
               <p className="price">{formatPrice(product.price)}</p>
               <button onClick={() => addToCart(product)}>
                 Thêm vào giỏ
@@ -105,21 +146,49 @@ const products = [
           ))}
         </div>
       </main>
-
+      {/* Cart sidebar */}
       <aside className="cart">
-        <h3>Giỏ hàng ({cart.length})</h3>
+        <h3>Giỏ hàng ({cart.reduce((total, item) => total + item.quantity, 0)})</h3>
         {cart.length === 0 ? (
           <p>Chưa có sản phẩm nào</p>
         ) : (
           <div>
-            {cart.map((item, index) => (
-              <div key={index} className="cart-item">
-                <span>{item.name}</span>
-                <span>{formatPrice(item.price)}</span>
+            {cart.map((item) => (
+              <div key={item.cartId} className="cart-item">
+                <div className="cart-item-info">
+            <span className="cart-item-name">{item.name}</span>
+            <span className="cart-item-price">{formatPrice(item.price)}</span>
+          </div>
+          <div className="cart-item-controls">
+            <div className="quantity-control">
+              <button 
+                onClick={() => updateQuantity(item.cartId, item.quantity - 1)}
+                className="quantity-btn"
+              >
+                -
+              </button>
+              <span className="quantity">{item.quantity}</span>
+              <button 
+                onClick={() => updateQuantity(item.cartId, item.quantity + 1)}
+                className="quantity-btn"
+              >
+                +
+              </button>
+            </div>
+            <div className="cart-item-subtotal">
+              {formatPrice(item.price * item.quantity)}
+            </div>
+                <button 
+                  onClick={() => removeFromCart(item.cartId)}
+                  className="remove-btn"
+                >
+                  Xóa
+                </button>
+              </div>
               </div>
             ))}
             <div className="total">
-              <strong>Tổng: {formatPrice(cart.reduce((sum, item) => sum + item.price, 0))}</strong>
+              <strong>Tổng: {formatPrice(cart.reduce((sum, item) => sum + (item.price * item.quantity),0))}</strong>
             </div>
             <button className="checkout">Thanh toán</button>
           </div>
@@ -127,9 +196,8 @@ const products = [
       </aside>
 
       <footer>
-        <p> 2025 Bike Shop - Bán xe đạp online</p>
+        <p>2025 Bike Shop - Bán xe đạp online</p>
       </footer>
-      
     </div>
   );
 }
