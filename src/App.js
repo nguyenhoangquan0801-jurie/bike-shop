@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import About from './pages/About';
 import ProductDetail from './components/ProductDetail';
 import Checkout from './components/Checkout';
 import './App.css';
@@ -51,10 +55,8 @@ const products = [
 
   const [wishlist, setWishlist] = useState([]);
 
-  const [selectedCategory, setSelectedCategory] = useState('Tất cả');
-
-  const [searchTerm, setSearchTerm] = useState('');
-
+    const [selectedCategory, setSelectedCategory] = useState('Tất cả');
+  
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const [showCheckout, setShowCheckout] = useState(false);
@@ -143,75 +145,41 @@ const handleConfirmOrder = (orderData) => {
 
 
   return (
+    <Router>
     <div className="container">
       <header>
-        <h1> Bike Shop</h1>
-        <div className="header-controls">
-          <div className="wishlist-info">
-            Yêu thích: {wishlist.length}
+        <div className="logo">
+            <Link to="/">🚴 Bike Shop</Link>
           </div>
-        <div className="cart-info">
-          Giỏ hàng: {cart.reduce((total, item) => total + item.quantity, 0)}
-        </div>
-        </div>
+          <nav className="nav-menu">
+            <Link to="/">Trang chủ</Link>
+            <Link to="/products">Sản phẩm</Link>
+            <Link to="/about">Giới thiệu</Link>
+          </nav>
+          <div className="header-controls">
+            <div className="wishlist-info">
+              {wishlist.length}
+            </div>
+            <div className="cart-info" onClick={() => cart.length > 0 && setShowCheckout(true)}>
+              🛒 {cart.reduce((total, item) => total + item.quantity, 0)}
+            </div>
+          </div>
       </header>
 
       <main>
-        <h2>Danh sách xe đạp</h2>
-        
-        {/* Search input */}
-        <div className="search-container">
-          <input
-            type="text"
-            placeholder="Tìm kiếm xe đạp..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="search-input"
-          />
-        </div>
-        
-  <div className="category-filter">
-  {['Tất cả', 'Địa hình', 'Đường phố', 'Thể thao', 'Đua', 'Trẻ em', 'Gấp'].map(category => (
-    <button
-      key={category}
-      className={`category-btn ${selectedCategory === category ? 'active' : ''}`}
-      onClick={() => setSelectedCategory(category)}
-    >
-      {category}
-    </button>
-  ))}
-</div>
-  {/* Products grid */}
-    <div className="products">
-      {filteredProducts.map(product => (
-        <div key={product.id} className="product-card">
-          <img 
-            src={product.image} 
-            alt={product.name} 
-            onClick={() => openProductDetail(product)}
-            style={{ cursor: 'pointer' }}
-          />
-          <h3 
-            onClick={() => openProductDetail(product)}
-            style={{ cursor: 'pointer', color: '#3498db' }}
-          >
-            {product.name}
-          </h3>
-          <p className="category">{product.category}</p>
-          <p className="price">{formatPrice(product.price)}</p>
-          <div className="product-actions">
-            <button onClick={() => addToCart(product)}> Thêm vào giỏ
-            </button>
-            <button 
-              onClick={() => toggleWishlist(product)}
-              className={`wishlist-btn ${wishlist.some(item => item.id === product.id) ? 'active' : ''}`}
-    >
-              {wishlist.some(item => item.id === product.id) ? '❤️' : '🤍'}
-            </button>
-          </div>
-        </div>
-      ))}
-    </div>
+        <Routes>
+        <Route path="/" element={<Home />} />
+            <Route path="/products" element={
+              <Products 
+                products={products}
+                addToCart={addToCart}
+                toggleWishlist={toggleWishlist}
+                wishlist={wishlist}
+                openProductDetail={openProductDetail}
+              />
+            } />
+            <Route path="/about" element={<About />} />
+          </Routes>
   </main>
     {/* Cart sidebar */}
       <aside className="cart">
@@ -266,8 +234,27 @@ const handleConfirmOrder = (orderData) => {
       </aside>
 
       <footer>
-        <p>2025 Bike Shop - Bán xe đạp online</p>
+        <div className="footer-content">
+            <div className="footer-section">
+              <h4>Bike Shop</h4>
+              <p>Chuyên cung cấp xe đạp chất lượng cao</p>
+            </div>
+            <div className="footer-section">
+              <h4>Liên hệ</h4>
+              <p> 0702972210</p>
+              <p> info@bikeshop.com</p>
+              <p> 17 đường Linh Xuân,Thủ Đức, Tp.HCM</p>
+            </div>
+            <div className="footer-section">
+              <h4>Liên kết nhanh</h4>
+              <Link to="/">Trang chủ</Link>
+              <Link to="/products">Sản phẩm</Link>
+              <Link to="/about">Giới thiệu</Link>
+            </div>
+          </div>
+          <p className="copyright">© 2025 Bike Shop. All rights reserved.</p>
       </footer>
+
       {selectedProduct && (
         <ProductDetail
           product={selectedProduct}
@@ -284,6 +271,7 @@ const handleConfirmOrder = (orderData) => {
         />
       )}
     </div>
+    </Router>
   );
 }
 
