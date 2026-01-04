@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ProductDetail from './components/ProductDetail';
 import './App.css';
 
 function App() {
@@ -47,12 +48,15 @@ const products = [
   }];
   const [cart, setCart] = useState([]);
 
+  const [wishlist, setWishlist] = useState([]);
+
   const [selectedCategory, setSelectedCategory] = useState('Tất cả');
 
   const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredProducts = products
-  .filter(product => 
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const filteredProducts = products.filter(product => 
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
   )
   .filter(product => 
@@ -100,17 +104,42 @@ const products = [
       : item
   ));
 };
+  const toggleWishlist = (product) => {
+    const isInWishlist = wishlist.some(item => item.id === product.id);
+    if (isInWishlist) {
+      setWishlist(wishlist.filter(item => item.id !== product.id));
+      alert(`Đã xóa ${product.name} khỏi yêu thích!`);
+    } else {
+      setWishlist([...wishlist, product]);
+      alert(`Đã thêm ${product.name} vào yêu thích!`);
+    }
+  };
 
   const formatPrice = (price) => {
     return price.toLocaleString('vi-VN') + ' đ';
   };
+  const openProductDetail = (product) => {
+  setSelectedProduct(product);
+};
+  const closeProductDetail = () => {
+  setSelectedProduct(null);
+};
+  const addToCartFromModal = (product) => {
+  addToCart(product);
+};
+
 
   return (
     <div className="container">
       <header>
         <h1> Bike Shop</h1>
+        <div className="header-controls">
+          <div className="wishlist-info">
+            Yêu thích: {wishlist.length}
+          </div>
         <div className="cart-info">
-          🛒 Giỏ hàng: {cart.length} sản phẩm
+          Giỏ hàng: {cart.reduce((total, item) => total + item.quantity, 0)}
+        </div>
         </div>
       </header>
 
@@ -127,6 +156,7 @@ const products = [
             className="search-input"
           />
         </div>
+        
   <div className="category-filter">
   {['Tất cả', 'Địa hình', 'Đường phố', 'Thể thao', 'Đua', 'Trẻ em', 'Gấp'].map(category => (
     <button
@@ -139,21 +169,38 @@ const products = [
   ))}
 </div>
   {/* Products grid */}
-        <div className="products">
-          {filteredProducts.map(product => (
-            <div key={product.id} className="product-card">
-              <img src={product.image} alt={product.name} />
-              <h3>{product.name}</h3>
-              <p className="category">{product.category}</p>
-              <p className="price">{formatPrice(product.price)}</p>
-              <button onClick={() => addToCart(product)}>
-                Thêm vào giỏ
-              </button>
-            </div>
-          ))}
+    <div className="products">
+      {filteredProducts.map(product => (
+        <div key={product.id} className="product-card">
+          <img 
+            src={product.image} 
+            alt={product.name} 
+            onClick={() => openProductDetail(product)}
+            style={{ cursor: 'pointer' }}
+          />
+          <h3 
+            onClick={() => openProductDetail(product)}
+            style={{ cursor: 'pointer', color: '#3498db' }}
+          >
+            {product.name}
+          </h3>
+          <p className="category">{product.category}</p>
+          <p className="price">{formatPrice(product.price)}</p>
+          <div className="product-actions">
+            <button onClick={() => addToCart(product)}> Thêm vào giỏ
+            </button>
+            <button 
+              onClick={() => toggleWishlist(product)}
+              className={`wishlist-btn ${wishlist.some(item => item.id === product.id) ? 'active' : ''}`}
+    >
+              {wishlist.some(item => item.id === product.id) ? '❤️' : '🤍'}
+            </button>
+          </div>
         </div>
-      </main>
-      {/* Cart sidebar */}
+      ))}
+    </div>
+  </main>
+    {/* Cart sidebar */}
       <aside className="cart">
         <h3>Giỏ hàng ({cart.reduce((total, item) => total + item.quantity, 0)})</h3>
         {cart.length === 0 ? (
@@ -163,11 +210,11 @@ const products = [
             {cart.map((item) => (
               <div key={item.cartId} className="cart-item">
                 <div className="cart-item-info">
-            <span className="cart-item-name">{item.name}</span>
-            <span className="cart-item-price">{formatPrice(item.price)}</span>
-          </div>
-          <div className="cart-item-controls">
-            <div className="quantity-control">
+                  <span className="cart-item-name">{item.name}</span>
+                  <span className="cart-item-price">{formatPrice(item.price)}</span>
+                </div>
+                <div className="cart-item-controls">
+              <div className="quantity-control">
               <button 
                 onClick={() => updateQuantity(item.cartId, item.quantity - 1)}
                 className="quantity-btn"
@@ -197,8 +244,10 @@ const products = [
             <div className="total">
               <strong>Tổng: {formatPrice(cart.reduce((sum, item) => sum + (item.price * item.quantity),0))}</strong>
             </div >
+            <div className="cart-actions">
             <button onClick={clearCart} className="clear-cart-btn" disabled={cart.length === 0}> Xóa giỏ hàng </button>
             <button className="checkout">Thanh toán</button>
+          </div>
           </div>
         )}
       </aside>
@@ -206,6 +255,13 @@ const products = [
       <footer>
         <p>2025 Bike Shop - Bán xe đạp online</p>
       </footer>
+      {selectedProduct && (
+        <ProductDetail
+          product={selectedProduct}
+          onClose={closeProductDetail}
+          onAddToCart={addToCartFromModal}
+        />
+      )}
     </div>
   );
 }
