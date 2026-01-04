@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ProductDetail from './components/ProductDetail';
+import Checkout from './components/Checkout';
 import './App.css';
 
 function App() {
@@ -55,6 +56,8 @@ const products = [
   const [searchTerm, setSearchTerm] = useState('');
 
   const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const [showCheckout, setShowCheckout] = useState(false);
 
   const filteredProducts = products.filter(product => 
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -126,6 +129,16 @@ const products = [
 };
   const addToCartFromModal = (product) => {
   addToCart(product);
+};
+
+const handleConfirmOrder = (orderData) => {
+  console.log('Order confirmed:', orderData);
+  console.log('Cart items:', cart);
+  console.log('Total:', cart.reduce((sum, item) => sum + (item.price * item.quantity), 0));
+  
+  alert(`Đơn hàng đã được xác nhận!\nCảm ơn bạn đã mua sắm tại Bike Shop!\nTổng tiền: ${formatPrice(cart.reduce((sum, item) => sum + (item.price * item.quantity), 0))}`);
+  
+  setCart([]);
 };
 
 
@@ -246,7 +259,7 @@ const products = [
             </div >
             <div className="cart-actions">
             <button onClick={clearCart} className="clear-cart-btn" disabled={cart.length === 0}> Xóa giỏ hàng </button>
-            <button className="checkout">Thanh toán</button>
+            <button className="checkout" onClick={() => setShowCheckout(true)}disabled={cart.length === 0}>Thanh toán </button>
           </div>
           </div>
         )}
@@ -260,6 +273,14 @@ const products = [
           product={selectedProduct}
           onClose={closeProductDetail}
           onAddToCart={addToCartFromModal}
+        />
+      )}
+      {showCheckout && (
+        <Checkout
+          cart={cart}
+          total={cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)}
+          onClose={() => setShowCheckout(false)}
+          onConfirmOrder={handleConfirmOrder}
         />
       )}
     </div>
