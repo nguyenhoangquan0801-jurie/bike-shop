@@ -3,17 +3,16 @@ import { useSearchParams } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import './Products.css';
 
-function Products({ products, addToCart, toggleWishlist, wishlist, openProductDetail }) {
+function Products({ products, addToCart, toggleWishlist, wishlist, openProductDetail, searchTerm, setSearchTerm, selectedCategory, setSelectedCategory }) {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('Tất cả');
   const [sortBy, setSortBy] = useState('default');
 
-  // Get category from URL if exists
+  React.useEffect(() => {
   const categoryFromUrl = searchParams.get('category');
   if (categoryFromUrl && selectedCategory !== categoryFromUrl) {
     setSelectedCategory(categoryFromUrl);
   }
+  }, [searchParams, selectedCategory, setSelectedCategory]);
 
   const filteredProducts = products
     .filter(product => 
@@ -88,6 +87,10 @@ function Products({ products, addToCart, toggleWishlist, wishlist, openProductDe
             </select>
           </div>
         </div>
+      </div>
+
+      <div className="products-info">
+        <p>Hiển thị {sortedProducts.length} sản phẩm</p>
       </div>
 
       {sortedProducts.length === 0 ? (
