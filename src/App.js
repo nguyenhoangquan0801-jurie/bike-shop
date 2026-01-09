@@ -15,7 +15,7 @@ const sampleProducts = [
   { 
     id: 1, 
     name: "Xe đạp địa hình", 
-    price: 8500000, 
+    price: 6500000, 
     originalPrice: 8500000,
     discount: 20,
     image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
@@ -28,8 +28,8 @@ const sampleProducts = [
   { 
     id: 2, 
     name: "Xe đạp đường phố", 
-    price: 6500000, 
-    originalPrice: 6500000,
+    price: 4800000, 
+    originalPrice: 6000000,
     discount: 20,
     image: "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
     category: "Đường phố",
@@ -41,7 +41,7 @@ const sampleProducts = [
   { 
     id: 3, 
     name: "Xe đạp thể thao", 
-    price: 12000000, 
+    price: 9600000,
     originalPrice: 12000000,
     discount: 20,
     image: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
@@ -53,7 +53,7 @@ const sampleProducts = [
   { 
     id: 4, 
     name: "Xe đạp đua", 
-    price: 15000000, 
+    price: 12000000, 
     originalPrice: 15000000,
     discount: 20,
     image: "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
@@ -66,7 +66,7 @@ const sampleProducts = [
   { 
     id: 5, 
     name: "Xe đạp trẻ em", 
-    price: 3500000, 
+    price: 2800000, 
     originalPrice: 3500000,
     discount: 20,
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
