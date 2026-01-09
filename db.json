@@ -89,6 +89,4206 @@
         "gears": "6 tốc độ",
         "brakes": "Phanh vành"
       }
+    },
+    {
+      "id": 1,
+      "name": "Giant Địa hình Model 1",
+      "price": 16000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "15.0kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Trek Địa hình Model 2",
+      "price": 20000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "15.3kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Specialized Địa hình Model 3",
+      "price": 9500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "13.3kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Specialized Địa hình Model 4",
+      "price": 8000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.1kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Merida Địa hình Model 5",
+      "price": 9000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.6kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Merida Địa hình Model 6",
+      "price": 21500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "15.3kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Trek Địa hình Model 7",
+      "price": 18500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "14.6kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Merida Địa hình Model 8",
+      "price": 19000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.1kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Trek Địa hình Model 9",
+      "price": 12000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "14.4kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Trek Địa hình Model 10",
+      "price": 20500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "13.4kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Merida Địa hình Model 11",
+      "price": 21500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "12.9kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Merida Địa hình Model 12",
+      "price": 22500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "13.8kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Giant Địa hình Model 13",
+      "price": 11000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.6kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Giant Địa hình Model 14",
+      "price": 13500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "15.1kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Merida Địa hình Model 15",
+      "price": 9500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "14.7kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Specialized Địa hình Model 16",
+      "price": 20000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.0kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Merida Địa hình Model 17",
+      "price": 8500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "15.4kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Trek Địa hình Model 18",
+      "price": 13500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "12.8kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Specialized Địa hình Model 19",
+      "price": 12500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "12.8kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Trek Địa hình Model 20",
+      "price": 23500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "12.8kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Trek Địa hình Model 21",
+      "price": 20000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "15.2kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Specialized Địa hình Model 22",
+      "price": 22500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "13.8kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Giant Địa hình Model 23",
+      "price": 13500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "15.0kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Trek Địa hình Model 24",      
+      "price": 17500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "15.4kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Specialized Địa hình Model 25",      
+      "price": 24000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.8kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Specialized Địa hình Model 26",      
+      "price": 11500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "12.7kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Trek Địa hình Model 27",      
+      "price": 11500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "13.1kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Giant Địa hình Model 28",      
+      "price": 11000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.1kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Specialized Địa hình Model 29",      
+      "price": 9000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "14.5kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Specialized Địa hình Model 30",      
+      "price": 14000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "14.4kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Specialized Địa hình Model 31",      
+      "price": 24500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "13.5kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Merida Địa hình Model 32",      
+      "price": 23500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.8kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Merida Địa hình Model 33",      
+      "price": 8500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "15.2kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Trek Địa hình Model 34",      
+      "price": 9500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "15.0kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Merida Địa hình Model 35",      
+      "price": 16000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "12.7kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Merida Địa hình Model 36",      
+      "price": 9000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.0kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Giant Địa hình Model 37",      
+      "price": 16500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "15.2kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Trek Địa hình Model 38",      
+      "price": 10000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "15.1kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Trek Địa hình Model 39",      
+      "price": 12000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.3kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Merida Địa hình Model 40",      
+      "price": 15000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "13.2kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Merida Địa hình Model 41",      
+      "price": 21000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "13.3kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Merida Địa hình Model 42",      
+      "price": 16500000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "13.9kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Trek Địa hình Model 43",      
+      "price": 8000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "15.4kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Merida Địa hình Model 44",      
+      "price": 18000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Merida, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "12.9kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Giant Địa hình Model 45",      
+      "price": 18000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "14.8kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Giant Địa hình Model 46",      
+      "price": 18000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.6kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Specialized Địa hình Model 47",      
+      "price": 16000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "14.2kg",
+        "wheelSize": "27.5 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Trek Địa hình Model 48",      
+      "price": 22000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "12.8kg",
+        "wheelSize": "29 inch",
+        "gears": "21 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Specialized Địa hình Model 49",      
+      "price": 12000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm 6061",
+        "weight": "14.7kg",
+        "wheelSize": "29 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Specialized Địa hình Model 50",      
+      "price": 10000000,
+      "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp địa hình chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon",
+        "weight": "13.1kg",
+        "wheelSize": "27.5 inch",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Forni Đường phố Model 1",      
+      "price": 11000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.3kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Trinx Đường phố Model 2",      
+      "price": 6500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.8kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 53,
+      "name": "Twitter Đường phố Model 3",      
+      "price": 8500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.0kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 54,
+      "name": "Trinx Đường phố Model 4",      
+      "price": 10000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.5kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 55,
+      "name": "Forni Đường phố Model 5",      
+      "price": 8500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.5kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 56,
+      "name": "Forni Đường phố Model 6",      
+      "price": 9000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "10.9kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Giant Đường phố Model 7",      
+      "price": 10500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "10.8kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 58,
+      "name": "Forni Đường phố Model 8",      
+      "price": 6000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.7kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 59,
+      "name": "Forni Đường phố Model 9",      
+      "price": 11500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.1kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 60,
+      "name": "Trinx Đường phố Model 10",      
+      "price": 11500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.4kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 61,
+      "name": "Forni Đường phố Model 11",      
+      "price": 6500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.6kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 62,
+      "name": "Giant Đường phố Model 12",      
+      "price": 10000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.4kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 63,
+      "name": "Trinx Đường phố Model 13",      
+      "price": 8500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "11.2kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 64,
+      "name": "Giant Đường phố Model 14",      
+      "price": 9500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.2kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 65,
+      "name": "Trinx Đường phố Model 15",      
+      "price": 9000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.0kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 66,
+      "name": "Twitter Đường phố Model 16",      
+      "price": 11000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.5kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 67,
+      "name": "Trinx Đường phố Model 17",      
+      "price": 9000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.5kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 68,
+      "name": "Twitter Đường phố Model 18",      
+      "price": 10500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.9kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 69,
+      "name": "Giant Đường phố Model 19",      
+      "price": 6000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.2kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 70,
+      "name": "Forni Đường phố Model 20",      
+      "price": 10000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.3kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 71,
+      "name": "Twitter Đường phố Model 21",      
+      "price": 6500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "11.0kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 72,
+      "name": "Giant Đường phố Model 22",      
+      "price": 4500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.7kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 73,
+      "name": "Forni Đường phố Model 23",      
+      "price": 5500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.2kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 74,
+      "name": "Twitter Đường phố Model 24",      
+      "price": 7000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "11.5kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 75,
+      "name": "Twitter Đường phố Model 25",      
+      "price": 10500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "10.8kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 76,
+      "name": "Twitter Đường phố Model 26",      
+      "price": 7000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.2kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 77,
+      "name": "Giant Đường phố Model 27",      
+      "price": 5000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.7kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 78,
+      "name": "Forni Đường phố Model 28",      
+      "price": 4500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.1kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 79,
+      "name": "Twitter Đường phố Model 29",      
+      "price": 5500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.9kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 80,
+      "name": "Twitter Đường phố Model 30",
+      "price": 11000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "11.7kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 81,
+      "name": "Twitter Đường phố Model 31",      
+      "price": 11000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.7kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 82,
+      "name": "Trinx Đường phố Model 32",      
+      "price": 10500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.4kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 83,
+      "name": "Twitter Đường phố Model 33",      
+      "price": 11500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.7kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 84,
+      "name": "Twitter Đường phố Model 34",      
+      "price": 7500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.8kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 85,
+      "name": "Twitter Đường phố Model 35",      
+      "price": 6000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.5kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 86,
+      "name": "Trinx Đường phố Model 36",      
+      "price": 10500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "10.6kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 87,
+      "name": "Giant Đường phố Model 37",      
+      "price": 5000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.7kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 88,
+      "name": "Giant Đường phố Model 38",
+      "price": 4500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "10.6kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 89,
+      "name": "Forni Đường phố Model 39",
+"price": 8000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.3kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 90,
+      "name": "Giant Đường phố Model 40",
+"price": 9500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.8kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 91,
+      "name": "Giant Đường phố Model 41",
+"price": 10500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.2kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 92,
+      "name": "Trinx Đường phố Model 42",
+"price": 6500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.3kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 93,
+      "name": "Trinx Đường phố Model 43",
+"price": 10000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.5kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 94,
+      "name": "Giant Đường phố Model 44",
+"price": 11500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "11.3kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 95,
+      "name": "Twitter Đường phố Model 45",
+"price": 5500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.9kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 96,
+      "name": "Twitter Đường phố Model 46",
+"price": 10000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.9kg",
+        "wheelSize": "28 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 97,
+      "name": "Giant Đường phố Model 47",
+"price": 6000000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.5kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 98,
+      "name": "Trinx Đường phố Model 48",
+"price": 7500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "12.8kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 99,
+      "name": "Trinx Đường phố Model 49",
+"price": 5500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "11.0kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 100,
+      "name": "Trinx Đường phố Model 50",
+"price": 11500000,
+      "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép carbon",
+        "weight": "11.9kg",
+        "wheelSize": "28 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 101,
+      "name": "Giant Thể thao Model 1",
+"price": 26000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "10.1kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 102,
+      "name": "Trek Thể thao Model 2",
+"price": 27500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.1kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 103,
+      "name": "Specialized Thể thao Model 3",
+"price": 25000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.1kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 104,
+      "name": "Trek Thể thao Model 4",
+"price": 15000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.6kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 105,
+      "name": "Specialized Thể thao Model 5",
+"price": 28000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.6kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 106,
+      "name": "Trek Thể thao Model 6",
+"price": 22500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.7kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 107,
+      "name": "Trek Thể thao Model 7",
+"price": 30500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.4kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 108,
+      "name": "Specialized Thể thao Model 8",
+"price": 13000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 109,
+      "name": "Giant Thể thao Model 9",
+"price": 12500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "8.3kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 110,
+      "name": "Trek Thể thao Model 10",
+"price": 28500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.8kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 111,
+      "name": "Trek Thể thao Model 11",
+"price": 14000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.4kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 112,
+      "name": "Specialized Thể thao Model 12",
+"price": 32000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.3kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 113,
+      "name": "Giant Thể thao Model 13",
+"price": 34500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "8.9kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 114,
+      "name": "Trek Thể thao Model 14",
+"price": 18500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.8kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 115,
+      "name": "Trek Thể thao Model 15",
+"price": 16500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "10.1kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 116,
+      "name": "Trek Thể thao Model 16",
+"price": 26500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "10.1kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 117,
+      "name": "Giant Thể thao Model 17",
+"price": 26000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.1kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 118,
+      "name": "Specialized Thể thao Model 18",
+"price": 23000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.0kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 119,
+      "name": "Trek Thể thao Model 19",
+"price": 31000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.6kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 120,
+      "name": "Trek Thể thao Model 20",
+"price": 20500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "10.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 121,
+      "name": "Specialized Thể thao Model 21",
+"price": 21500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.2kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 122,
+      "name": "Trek Thể thao Model 22",
+"price": 31500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.3kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 123,
+      "name": "Giant Thể thao Model 23",
+"price": 30500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.8kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 124,
+      "name": "Giant Thể thao Model 24",
+"price": 19500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.2kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 125,
+      "name": "Giant Thể thao Model 25",
+"price": 27000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.7kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 126,
+      "name": "Specialized Thể thao Model 26",
+"price": 13500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.3kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 127,
+      "name": "Specialized Thể thao Model 27",
+"price": 33500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 128,
+      "name": "Specialized Thể thao Model 28",
+"price": 25000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.3kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 129,
+      "name": "Giant Thể thao Model 29",
+"price": 26500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.4kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 130,
+      "name": "Specialized Thể thao Model 30",
+"price": 29000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.7kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 131,
+      "name": "Giant Thể thao Model 31",
+"price": 19000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.6kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 132,
+      "name": "Trek Thể thao Model 32",
+"price": 20500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.3kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 133,
+      "name": "Giant Thể thao Model 33",
+"price": 19500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 134,
+      "name": "Trek Thể thao Model 34",
+"price": 28000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "8.0kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 135,
+      "name": "Giant Thể thao Model 35",
+"price": 32500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.4kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 136,
+      "name": "Trek Thể thao Model 36",
+"price": 22500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "8.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 137,
+      "name": "Trek Thể thao Model 37",
+"price": 17500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 138,
+      "name": "Giant Thể thao Model 38",
+"price": 22500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.0kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 139,
+      "name": "Specialized Thể thao Model 39",
+"price": 31000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "8.2kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 140,
+      "name": "Giant Thể thao Model 40",
+"price": 24500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "8.3kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 141,
+      "name": "Trek Thể thao Model 41",
+"price": 14000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.0kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 142,
+      "name": "Giant Thể thao Model 42",
+"price": 12000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.1kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 143,
+      "name": "Specialized Thể thao Model 43",
+"price": 32500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.0kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 144,
+      "name": "Specialized Thể thao Model 44",
+"price": 30000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.4kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 145,
+      "name": "Giant Thể thao Model 45",
+"price": 31500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "8.2kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 146,
+      "name": "Specialized Thể thao Model 46",
+"price": 19500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 147,
+      "name": "Specialized Thể thao Model 47",
+"price": 18000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "10.3kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 148,
+      "name": "Giant Thể thao Model 48",
+"price": 24500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.7kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 149,
+      "name": "Trek Thể thao Model 49",
+"price": 13500000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon full",
+        "weight": "9.2kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 150,
+      "name": "Giant Thể thao Model 50",
+"price": 27000000,
+      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.8kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 151,
+      "name": "Cannondale Đua Model 1",
+"price": 59500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.2kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 152,
+      "name": "Cannondale Đua Model 2",
+"price": 22500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.3kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 153,
+      "name": "Cannondale Đua Model 3",
+"price": 45000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.3kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 154,
+      "name": "Specialized Đua Model 4",
+"price": 23500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 155,
+      "name": "Specialized Đua Model 5",
+"price": 35500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.3kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 156,
+      "name": "Specialized Đua Model 6",
+"price": 37000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.8kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 157,
+      "name": "Cannondale Đua Model 7",
+"price": 33000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.8kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 158,
+      "name": "Cannondale Đua Model 8",
+"price": 25000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.1kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 159,
+      "name": "Trek Đua Model 9",
+"price": 58500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.3kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 160,
+      "name": "Cannondale Đua Model 10",
+"price": 38500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.9kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 161,
+      "name": "Trek Đua Model 11",
+"price": 25500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.1kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 162,
+      "name": "Trek Đua Model 12",
+"price": 43500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 163,
+      "name": "Specialized Đua Model 13",
+"price": 19500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 164,
+      "name": "Specialized Đua Model 14",
+"price": 51000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.7kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 165,
+      "name": "Cannondale Đua Model 15",
+"price": 49000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.6kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 166,
+      "name": "Cannondale Đua Model 16",
+"price": 39500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.6kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 167,
+      "name": "Cannondale Đua Model 17",
+"price": 24500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.3kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 168,
+      "name": "Cannondale Đua Model 18",
+"price": 43000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 169,
+      "name": "Specialized Đua Model 19",
+"price": 55500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.1kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 170,
+      "name": "Specialized Đua Model 20",
+"price": 23500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.5kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 171,
+      "name": "Specialized Đua Model 21",
+"price": 45000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.3kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 172,
+      "name": "Specialized Đua Model 22",
+"price": 52000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "6.8kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 173,
+      "name": "Trek Đua Model 23",
+"price": 55500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.8kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 174,
+      "name": "Trek Đua Model 24",
+"price": 25000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.9kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 175,
+      "name": "Trek Đua Model 25",
+"price": 41000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.6kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 176,
+      "name": "Specialized Đua Model 26",
+"price": 29500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.7kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 177,
+      "name": "Specialized Đua Model 27",
+"price": 22000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.5kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 178,
+      "name": "Specialized Đua Model 28",
+"price": 25500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 179,
+      "name": "Cannondale Đua Model 29",
+"price": 31000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.2kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 180,
+      "name": "Cannondale Đua Model 30",
+"price": 41500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 181,
+      "name": "Cannondale Đua Model 31",
+"price": 46000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.5kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 182,
+      "name": "Cannondale Đua Model 32",
+"price": 37500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.5kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 183,
+      "name": "Cannondale Đua Model 33",
+"price": 33500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.6kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 184,
+      "name": "Specialized Đua Model 34",
+"price": 51500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "6.9kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 185,
+      "name": "Trek Đua Model 35",
+"price": 48500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 186,
+      "name": "Trek Đua Model 36",
+"price": 19500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.3kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 187,
+      "name": "Trek Đua Model 37",
+"price": 43500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.1kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 188,
+      "name": "Specialized Đua Model 38",
+"price": 33000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.5kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 189,
+      "name": "Cannondale Đua Model 39",
+"price": 28500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 190,
+      "name": "Trek Đua Model 40",
+"price": 28000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.5kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 191,
+      "name": "Specialized Đua Model 41",
+"price": 59000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.2kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 192,
+      "name": "Trek Đua Model 42",
+"price": 48500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 193,
+      "name": "Cannondale Đua Model 43",
+"price": 23500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.0kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 194,
+      "name": "Cannondale Đua Model 44",
+"price": 47000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.6kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 195,
+      "name": "Cannondale Đua Model 45",
+"price": 37500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.4kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 196,
+      "name": "Trek Đua Model 46",
+"price": 21500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.2kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 197,
+      "name": "Trek Đua Model 47",
+"price": 33500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.8kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 198,
+      "name": "Trek Đua Model 48",
+"price": 53500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.2kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 199,
+      "name": "Specialized Đua Model 49",
+"price": 39500000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "7.2kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 200,
+      "name": "Cannondale Đua Model 50",
+"price": 27000000,
+      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung carbon cao cấp",
+        "weight": "8.2kg",
+        "wheelSize": "700C",
+        "gears": "24 tốc độ",
+        "brakes": "Phanh đĩa thủy lực"
+      }
+    },
+    {
+      "id": 201,
+      "name": "RoyalBaby Trẻ em Model 1",
+"price": 5500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "7.9kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 202,
+      "name": "Giant Trẻ em Model 2",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "7.7kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 203,
+      "name": "Trinx Trẻ em Model 3",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.1kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 204,
+      "name": "RoyalBaby Trẻ em Model 4",
+"price": 5000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.7kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 205,
+      "name": "Giant Trẻ em Model 5",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "7.7kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 206,
+      "name": "RoyalBaby Trẻ em Model 6",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.9kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 207,
+      "name": "Trinx Trẻ em Model 7",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.5kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 208,
+      "name": "Trinx Trẻ em Model 8",
+"price": 3000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 209,
+      "name": "Giant Trẻ em Model 9",
+"price": 3000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "10.1kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 210,
+      "name": "RoyalBaby Trẻ em Model 10",
+"price": 5500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "7.6kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 211,
+      "name": "Giant Trẻ em Model 11",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "10.2kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 212,
+      "name": "Trinx Trẻ em Model 12",
+"price": 5500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.9kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 213,
+      "name": "RoyalBaby Trẻ em Model 13",
+"price": 3000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "7.7kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 214,
+      "name": "Trinx Trẻ em Model 14",
+"price": 6000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "10.4kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 215,
+      "name": "Trinx Trẻ em Model 15",
+"price": 3000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.3kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 216,
+      "name": "RoyalBaby Trẻ em Model 16",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.6kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 217,
+      "name": "Trinx Trẻ em Model 17",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.1kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 218,
+      "name": "Trinx Trẻ em Model 18",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.3kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 219,
+      "name": "RoyalBaby Trẻ em Model 19",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.2kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 220,
+      "name": "Giant Trẻ em Model 20",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.8kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 221,
+      "name": "Giant Trẻ em Model 21",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.7kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 222,
+      "name": "RoyalBaby Trẻ em Model 22",
+"price": 6500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.2kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 223,
+      "name": "Giant Trẻ em Model 23",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.1kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 224,
+      "name": "Trinx Trẻ em Model 24",
+"price": 4500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.9kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 225,
+      "name": "RoyalBaby Trẻ em Model 25",
+"price": 5500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.7kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 226,
+      "name": "Trinx Trẻ em Model 26",
+"price": 5000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.0kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 227,
+      "name": "Giant Trẻ em Model 27",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.8kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 228,
+      "name": "Giant Trẻ em Model 28",
+"price": 5500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 229,
+      "name": "Trinx Trẻ em Model 29",
+"price": 5000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.5kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 230,
+      "name": "Trinx Trẻ em Model 30",
+"price": 6500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.0kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 231,
+      "name": "Giant Trẻ em Model 31",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "10.2kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 232,
+      "name": "RoyalBaby Trẻ em Model 32",
+"price": 4500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "10.2kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 233,
+      "name": "Giant Trẻ em Model 33",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "7.8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 234,
+      "name": "RoyalBaby Trẻ em Model 34",
+"price": 6500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.5kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 235,
+      "name": "RoyalBaby Trẻ em Model 35",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.8kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 236,
+      "name": "RoyalBaby Trẻ em Model 36",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.4kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 237,
+      "name": "Giant Trẻ em Model 37",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 238,
+      "name": "RoyalBaby Trẻ em Model 38",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "10.5kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 239,
+      "name": "RoyalBaby Trẻ em Model 39",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.0kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 240,
+      "name": "RoyalBaby Trẻ em Model 40",
+"price": 5500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.1kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 241,
+      "name": "Giant Trẻ em Model 41",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.6kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 242,
+      "name": "Trinx Trẻ em Model 42",
+"price": 3000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "7.6kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 243,
+      "name": "Trinx Trẻ em Model 43",
+"price": 6000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.6kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 244,
+      "name": "RoyalBaby Trẻ em Model 44",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.1kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 245,
+      "name": "RoyalBaby Trẻ em Model 45",
+"price": 3000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.6kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 246,
+      "name": "Trinx Trẻ em Model 46",
+"price": 6000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "7.8kg",
+        "wheelSize": "20 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 247,
+      "name": "Trinx Trẻ em Model 47",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.2kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 248,
+      "name": "Trinx Trẻ em Model 48",
+"price": 2500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.1kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 249,
+      "name": "RoyalBaby Trẻ em Model 49",
+"price": 4000000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "8.8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 250,
+      "name": "RoyalBaby Trẻ em Model 50",
+"price": 3500000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung thép",
+        "weight": "9.3kg",
+        "wheelSize": "18 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh chân"
+      }
+    },
+    {
+      "id": 251,
+      "name": "Dahon Gấp Model 1",
+"price": 10000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.4kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 252,
+      "name": "Giant Gấp Model 2",
+"price": 11500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.3kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 253,
+      "name": "Dahon Gấp Model 3",
+"price": 9500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.3kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 254,
+      "name": "Dahon Gấp Model 4",
+"price": 12000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.4kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 255,
+      "name": "Giant Gấp Model 5",
+"price": 17000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.0kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 256,
+      "name": "Tern Gấp Model 6",
+"price": 7000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.0kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 257,
+      "name": "Giant Gấp Model 7",
+"price": 12000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.3kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 258,
+      "name": "Tern Gấp Model 8",
+      "price": 11000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.7kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 259,
+      "name": "Giant Gấp Model 9",
+      "price": 18000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.2kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 260,
+      "name": "Tern Gấp Model 10",
+"price": 12000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.1kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 261,
+      "name": "Dahon Gấp Model 11",
+"price": 7000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.2kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 262,
+      "name": "Dahon Gấp Model 12",
+"price": 10000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.5kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 263,
+      "name": "Giant Gấp Model 13",
+"price": 7500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.7kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 264,
+      "name": "Tern Gấp Model 14",
+"price": 13000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.9kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 265,
+      "name": "Giant Gấp Model 15",
+"price": 18000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.3kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 266,
+      "name": "Tern Gấp Model 16",
+"price": 9500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.2kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 267,
+      "name": "Giant Gấp Model 17",
+"price": 8500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.0kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 268,
+      "name": "Tern Gấp Model 18",
+"price": 19500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.4kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 269,
+      "name": "Dahon Gấp Model 19",
+"price": 13500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.3kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 270,
+      "name": "Dahon Gấp Model 20",
+"price": 15000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.6kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 271,
+      "name": "Dahon Gấp Model 21",
+"price": 19000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.1kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 272,
+      "name": "Tern Gấp Model 22",
+"price": 18500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.2kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 273,
+      "name": "Giant Gấp Model 23",
+"price": 11500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.1kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 274,
+      "name": "Giant Gấp Model 24",
+"price": 19000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.5kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 275,
+      "name": "Giant Gấp Model 25",
+"price": 17000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.6kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 276,
+      "name": "Giant Gấp Model 26",
+"price": 11500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.5kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 277,
+      "name": "Tern Gấp Model 27",
+"price": 14500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.7kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 278,
+      "name": "Dahon Gấp Model 28",
+"price": 12500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.3kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 279,
+      "name": "Dahon Gấp Model 29",
+"price": 7000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.9kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 280,
+      "name": "Giant Gấp Model 30",
+"price": 15000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.1kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 281,
+      "name": "Tern Gấp Model 31",
+"price": 16500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.9kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 282,
+      "name": "Dahon Gấp Model 32",
+"price": 11500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.4kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 283,
+      "name": "Dahon Gấp Model 33",
+"price": 8000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.2kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 284,
+      "name": "Dahon Gấp Model 34",
+"price": 13500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.8kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 285,
+      "name": "Giant Gấp Model 35",
+"price": 19000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.9kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 286,
+      "name": "Giant Gấp Model 36",
+"price": 12500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.0kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 287,
+      "name": "Giant Gấp Model 37",
+"price": 10000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.8kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 288,
+      "name": "Giant Gấp Model 38",
+"price": 7000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.9kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 289,
+      "name": "Dahon Gấp Model 39",
+"price": 13000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.5kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 290,
+      "name": "Tern Gấp Model 40",
+"price": 10500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.2kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 291,
+      "name": "Giant Gấp Model 41",
+"price": 12000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12.3kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 292,
+      "name": "Giant Gấp Model 42",
+"price": 15000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.7kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 293,
+      "name": "Giant Gấp Model 43",
+"price": 18500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.9kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 294,
+      "name": "Tern Gấp Model 44",
+"price": 7500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.2kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 295,
+      "name": "Tern Gấp Model 45",
+"price": 19000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.0kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 296,
+      "name": "Giant Gấp Model 46",
+"price": 12500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.9kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 297,
+      "name": "Tern Gấp Model 47",
+"price": 9500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.2kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 298,
+      "name": "Giant Gấp Model 48",
+"price": 10500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.0kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 299,
+      "name": "Tern Gấp Model 49",
+"price": 7000000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "11.9kg",
+        "wheelSize": "20 inch",
+        "gears": "6 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 300,
+      "name": "Giant Gấp Model 50",
+"price": 9500000,
+      "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
+      "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "13.1kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh vành"
+      }
     }
   ]
 }
