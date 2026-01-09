@@ -8,6 +8,8 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
 
   const isOnSale = product.isOnSale && product.discount > 0;
 
+  const savings = isOnSale ? product.originalPrice - product.price : 0;
+
   const getDaysRemaining = () => {
     if (!product.saleEnd) return null;
     const endDate = new Date(product.saleEnd);
@@ -19,10 +21,19 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
 
   const daysRemaining = getDaysRemaining();
 
-  const savings = isOnSale ? product.originalPrice - product.price : 0;
+  const testStyle = {
+    border: isOnSale ? '4px solid #00ff00' : '2px solid #0000ff',
+    backgroundColor: isOnSale ? '#f0fff0' : '#ffffff',
+    padding: '5px'
+  };
 
   return (
-    <div className="product-card">
+    <div className={`product-card ${isOnSale ? 'sale-item' : ''}`}
+    style={testStyle} // THÊM VÀO ĐÂY
+      data-product-id={product.id}
+      data-is-on-sale={isOnSale}
+      >
+
       <div className="product-image-container">
         <img 
           src={product.image} 
@@ -32,7 +43,15 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
         />
         {isOnSale && (
           <div className="product-badges">
-            <span className="discount-badge">-{product.discount}%</span>
+            <span className="discount-badge"
+            style={{ // THÊM STYLE TEST CHO BADGE
+                background: '#ff0000', 
+                color: '#ffffff', 
+                fontSize: '20px',
+                border: '2px solid yellow'
+              }}
+            >
+              TEST-{product.discount}%</span>
             {daysRemaining > 0 && daysRemaining <= 7 && (
               <span className="sale-timer">
                 ⏰ {daysRemaining}d
@@ -50,23 +69,36 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
         {isOnSale ? (
           <>
             <div className="price-row">
-              <span className="product-price-sale">{formatPrice(product.price)}</span>
-              <span className="product-price-original">{formatPrice(product.originalPrice)}</span>
+              <span className="product-price-sale"style={{color: '#ff0000', fontSize: '22px', fontWeight: 'bold'}} // TEST
+              >
+                SALE: {formatPrice(product.price)}</span>
+              <span className="product-price-original"style={{textDecoration: 'line-through red', color: '#666'}} // TEST
+              >
+                WAS: {formatPrice(product.originalPrice)}</span>
             </div>
             <div className="savings-row">
-              <span className="discount-saved">
-                Tiết kiệm: {formatPrice(savings)}
+              <span className="discount-saved"
+                style={{color: '#00aa00', fontWeight: 'bold', fontSize: '14px'}} // TEST
+              >
+                SAVE: {formatPrice(savings)}!
               </span>
             </div>
           </>
         ) : (
-          <span className="product-price">{formatPrice(product.price)}</span>
+          <span className="product-price"style={{color: '#0000ff', fontSize: '18px'}} // TEST
+          >
+            REGULAR: {formatPrice(product.price)}</span>
         )}
       </div>
 
       <div className="product-actions">
-        <button onClick={() => addToCart(product)} className="add-to-cart-btn">
-          Thêm vào giỏ
+        <button onClick={() => addToCart(product)} className="add-to-cart-btn"style={{ // TEST BUTTON COLOR
+            background: isOnSale ? '#ff0000' : '#3498db',
+            color: 'white',
+            fontWeight: 'bold'
+          }}
+        >
+          {isOnSale ? '🛒 SALE ITEM!' : 'Thêm vào giỏ'}
         </button>
         <button 
           onClick={() => toggleWishlist(product)}

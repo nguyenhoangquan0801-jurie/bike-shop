@@ -15,7 +15,7 @@ const sampleProducts = [
   { 
     id: 1, 
     name: "Xe đạp địa hình", 
-    price: 6500000, 
+    price: 6800000, 
     originalPrice: 8500000,
     discount: 20,
     image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
@@ -77,8 +77,8 @@ const sampleProducts = [
   },
   { 
     id: 6, 
-    name: "Xe đạp gấp", 
-    price: 7500000, 
+    name: "Xe đạp gấp",
+    price: 9000000,
     originalPrice: 12000000,
     discount: 25,
     image: "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60", 

@@ -7,7 +7,6 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-
 }
 
 .product-card:hover {
@@ -49,18 +48,6 @@
   flex-direction: column;
   gap: 8px;
   z-index: 2;
-}
-
-.discount-badge {
-  background: linear-gradient(135deg, #e74c3c, #c0392b);
-  color: white;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: bold;
-  display: inline-block;
-  box-shadow: 0 3px 6px rgba(231, 76, 60, 0.3);
-  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
