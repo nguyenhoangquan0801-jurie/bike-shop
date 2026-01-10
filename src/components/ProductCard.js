@@ -51,7 +51,7 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
                 border: '2px solid yellow'
               }}
             >
-              TEST-{product.discount}%</span>
+              -{product.discount}%</span>
             {daysRemaining > 0 && daysRemaining <= 7 && (
               <span className="sale-timer">
                 ⏰ {daysRemaining}d
@@ -69,30 +69,30 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
         {isOnSale ? (
           <>
             <div className="price-row">
-              <span className="product-price-sale"style={{color: '#ff0000', fontSize: '22px', fontWeight: 'bold'}} // TEST
+              <span className="product-price-sale"style={{color: '#ff0000', fontSize: '22px', fontWeight: 'bold'}}
               >
                 SALE: {formatPrice(product.price)}</span>
-              <span className="product-price-original"style={{textDecoration: 'line-through red', color: '#666'}} // TEST
+              <span className="product-price-original"style={{textDecoration: 'line-through red', color: '#666'}} 
               >
                 WAS: {formatPrice(product.originalPrice)}</span>
             </div>
             <div className="savings-row">
               <span className="discount-saved"
-                style={{color: '#00aa00', fontWeight: 'bold', fontSize: '14px'}} // TEST
+                style={{color: '#00aa00', fontWeight: 'bold', fontSize: '14px'}} 
               >
                 SAVE: {formatPrice(savings)}!
               </span>
             </div>
           </>
         ) : (
-          <span className="product-price"style={{color: '#0000ff', fontSize: '18px'}} // TEST
+          <span className="product-price"style={{color: '#0000ff', fontSize: '18px'}} 
           >
             REGULAR: {formatPrice(product.price)}</span>
         )}
       </div>
 
       <div className="product-actions">
-        <button onClick={() => addToCart(product)} className="add-to-cart-btn"style={{ // TEST BUTTON COLOR
+        <button onClick={() => addToCart(product)} className="add-to-cart-btn"style={{ 
             background: isOnSale ? '#ff0000' : '#3498db',
             color: 'white',
             fontWeight: 'bold'
