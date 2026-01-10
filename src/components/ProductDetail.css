@@ -159,7 +159,213 @@
   background: #27ae60;
 }
 
-/* Responsive */
+.sale-flags {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-sale-flag {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 0 25px 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.4);
+}
+
+.discount-percent {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sale-text {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.countdown-flag {
+  background: linear-gradient(135deg, #f39c12, #e67e22);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 0 20px 20px 0;
+  font-size: 13px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(243, 156, 18, 0.4);
+}
+
+/* Category badge */
+.product-category-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+  margin: 10px 0 20px;
+}
+
+/* Pricing section for discount */
+.product-pricing-detail {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.sale-pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.price-display {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.final-price {
+  color: #e74c3c;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.original-price {
+  color: #95a5a6;
+  text-decoration: line-through;
+  font-size: 22px;
+}
+
+.savings-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.savings-badge {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+}
+
+.savings-amount {
+  font-size: 16px;
+}
+
+.savings-percent {
+  background: white;
+  color: #27ae60;
+  padding: 3px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.sale-countdown {
+  background: #fff8e1;
+  border: 2px solid #ffd54f;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.countdown-timer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #e65100;
+}
+
+.countdown-icon {
+  font-size: 24px;
+  animation: ring 2s infinite;
+}
+
+@keyframes ring {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(15deg); }
+  75% { transform: rotate(-15deg); }
+}
+
+.countdown-text {
+  font-size: 15px;
+}
+
+.countdown-text strong {
+  font-size: 18px;
+  color: #e74c3c;
+}
+
+.regular-pricing {
+  text-align: center;
+}
+
+.regular-price {
+  color: #2c3e50;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Sale notice */
+.sale-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #e3f2fd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  border-left: 4px solid #2196f3;
+}
+
+.notice-icon {
+  font-size: 24px;
+}
+
+.notice-content {
+  flex: 1;
+}
+
+.notice-content strong {
+  color: #1565c0;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.notice-content p {
+  color: #546e7a;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Updated action buttons for sale */
+.add-to-cart-btn.detail.sale {
+  background: linear-gradient(135deg, #e74c3c, #c0392b) !important;
+}
+
+.add-to-cart-btn.detail.sale:hover {
+  background: linear-gradient(135deg, #c0392b, #a93226) !important;
+}
+
+.buy-now-btn.detail.sale {
+  background: linear-gradient(135deg, #f39c12, #e67e22) !important;
+}
+
+.buy-now-btn.detail.sale:hover {
+  background: linear-gradient(135deg, #e67e22, #d35400) !important;
+}
 @media (max-width: 768px) {
   .product-detail-content {
     grid-template-columns: 1fr;
