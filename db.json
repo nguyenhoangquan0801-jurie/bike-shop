@@ -2,96 +2,6 @@
   "products": [
     {
       "id": 1,
-      "name": "Xe đạp địa hình",
-      "price": 8500000,
-      "image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "category": "Địa hình",
-      "description": "Xe đạp địa hình cao cấp với khung nhôm hợp kim, hệ thống phanh đĩa thủy lực, phù hợp cho địa hình phức tạp.",
-      "specs": {
-        "material": "Khung hợp kim nhôm 6061",
-        "weight": "14.5kg",
-        "wheelSize": "27.5 inch",
-        "gears": "21 tốc độ",
-        "brakes": "Phanh đĩa thủy lực"
-      }
-    },
-    {
-      "id": 2,
-      "name": "Xe đạp đường phố",
-      "price": 6500000,
-      "image": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "category": "Đường phố",
-      "description": "Xe đạp đường phố với thiết kế tối giản, nhẹ nhàng, phù hợp cho di chuyển trong thành phố.",
-      "specs": {
-        "material": "Khung thép carbon",
-        "weight": "11.2kg",
-        "wheelSize": "28 inch",
-        "gears": "7 tốc độ",
-        "brakes": "Phanh vành"
-      }
-    },
-    {
-      "id": 3,
-      "name": "Xe đạp thể thao",
-      "price": 12000000,
-      "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "category": "Thể thao",
-      "description": "Xe đạp thể thao tốc độ với khung carbon siêu nhẹ, hệ thống truyền động cao cấp.",
-      "specs": {
-        "material": "Khung carbon full",
-        "weight": "8.5kg",
-        "wheelSize": "700C",
-        "gears": "22 tốc độ",
-        "brakes": "Phanh đĩa cơ"
-      }
-    },
-    {
-      "id": 4,
-      "name": "Xe đạp đua",
-      "price": 15000000,
-      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "category": "Đua",
-      "description": "Xe đạp đua chuyên nghiệp với công nghệ tiên tiến, trọng lượng cực nhẹ.",
-      "specs": {
-        "material": "Khung carbon cao cấp",
-        "weight": "7.2kg",
-        "wheelSize": "700C",
-        "gears": "24 tốc độ",
-        "brakes": "Phanh đĩa thủy lực"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Xe đạp trẻ em",
-      "price": 3500000,
-      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "category": "Trẻ em",
-      "description": "Xe đạp an toàn cho trẻ em với bánh phụ, tay cầm chống trượt, thiết kế màu sắc bắt mắt.",
-      "specs": {
-        "material": "Khung thép",
-        "weight": "9.8kg",
-        "wheelSize": "20 inch",
-        "gears": "1 tốc độ",
-        "brakes": "Phanh chân"
-      }
-    },
-    {
-      "id": 6,
-      "name": "Xe đạp gấp",
-      "price": 7500000,
-      "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-      "category": "Gấp",
-      "description": "Xe đạp gấp tiện lợi, dễ dàng cất giữ và mang theo, phù hợp cho người sống trong căn hộ.",
-      "specs": {
-        "material": "Khung hợp kim nhôm",
-        "weight": "12.3kg",
-        "wheelSize": "20 inch",
-        "gears": "6 tốc độ",
-        "brakes": "Phanh vành"
-      }
-    },
-    {
-      "id": 1,
       "name": "Giant Địa hình Model 1",
       "price": 16000000,
       "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80",
@@ -1325,7 +1235,7 @@
     {
       "id": 89,
       "name": "Forni Đường phố Model 39",
-"price": 8000000,
+      "price": 8000000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Forni, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1339,7 +1249,7 @@
     {
       "id": 90,
       "name": "Giant Đường phố Model 40",
-"price": 9500000,
+      "price": 9500000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1353,7 +1263,7 @@
     {
       "id": 91,
       "name": "Giant Đường phố Model 41",
-"price": 10500000,
+      "price": 10500000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1367,7 +1277,7 @@
     {
       "id": 92,
       "name": "Trinx Đường phố Model 42",
-"price": 6500000,
+      "price": 6500000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1381,7 +1291,7 @@
     {
       "id": 93,
       "name": "Trinx Đường phố Model 43",
-"price": 10000000,
+      "price": 10000000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1395,7 +1305,7 @@
     {
       "id": 94,
       "name": "Giant Đường phố Model 44",
-"price": 11500000,
+      "price": 11500000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1409,7 +1319,7 @@
     {
       "id": 95,
       "name": "Twitter Đường phố Model 45",
-"price": 5500000,
+      "price": 5500000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1423,7 +1333,7 @@
     {
       "id": 96,
       "name": "Twitter Đường phố Model 46",
-"price": 10000000,
+      "price": 10000000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Twitter, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1437,7 +1347,7 @@
     {
       "id": 97,
       "name": "Giant Đường phố Model 47",
-"price": 6000000,
+      "price": 6000000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1451,7 +1361,7 @@
     {
       "id": 98,
       "name": "Trinx Đường phố Model 48",
-"price": 7500000,
+      "price": 7500000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1465,7 +1375,7 @@
     {
       "id": 99,
       "name": "Trinx Đường phố Model 49",
-"price": 5500000,
+      "price": 5500000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1479,7 +1389,7 @@
     {
       "id": 100,
       "name": "Trinx Đường phố Model 50",
-"price": 11500000,
+      "price": 11500000,
       "image": "https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đường phố chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1493,7 +1403,7 @@
     {
       "id": 101,
       "name": "Giant Thể thao Model 1",
-"price": 26000000,
+      "price": 26000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1507,7 +1417,7 @@
     {
       "id": 102,
       "name": "Trek Thể thao Model 2",
-"price": 27500000,
+      "price": 27500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1521,7 +1431,7 @@
     {
       "id": 103,
       "name": "Specialized Thể thao Model 3",
-"price": 25000000,
+      "price": 25000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1535,7 +1445,7 @@
     {
       "id": 104,
       "name": "Trek Thể thao Model 4",
-"price": 15000000,
+      "price": 15000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1549,7 +1459,7 @@
     {
       "id": 105,
       "name": "Specialized Thể thao Model 5",
-"price": 28000000,
+      "price": 28000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1563,7 +1473,7 @@
     {
       "id": 106,
       "name": "Trek Thể thao Model 6",
-"price": 22500000,
+      "price": 22500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1577,7 +1487,7 @@
     {
       "id": 107,
       "name": "Trek Thể thao Model 7",
-"price": 30500000,
+      "price": 30500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1591,7 +1501,7 @@
     {
       "id": 108,
       "name": "Specialized Thể thao Model 8",
-"price": 13000000,
+      "price": 13000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1605,7 +1515,7 @@
     {
       "id": 109,
       "name": "Giant Thể thao Model 9",
-"price": 12500000,
+      "price": 12500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1619,7 +1529,7 @@
     {
       "id": 110,
       "name": "Trek Thể thao Model 10",
-"price": 28500000,
+      "price": 28500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1633,7 +1543,7 @@
     {
       "id": 111,
       "name": "Trek Thể thao Model 11",
-"price": 14000000,
+      "price": 14000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1647,7 +1557,7 @@
     {
       "id": 112,
       "name": "Specialized Thể thao Model 12",
-"price": 32000000,
+      "price": 32000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1661,7 +1571,7 @@
     {
       "id": 113,
       "name": "Giant Thể thao Model 13",
-"price": 34500000,
+      "price": 34500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1675,7 +1585,7 @@
     {
       "id": 114,
       "name": "Trek Thể thao Model 14",
-"price": 18500000,
+      "price": 18500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1689,7 +1599,7 @@
     {
       "id": 115,
       "name": "Trek Thể thao Model 15",
-"price": 16500000,
+      "price": 16500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1703,7 +1613,7 @@
     {
       "id": 116,
       "name": "Trek Thể thao Model 16",
-"price": 26500000,
+      "price": 26500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1717,7 +1627,7 @@
     {
       "id": 117,
       "name": "Giant Thể thao Model 17",
-"price": 26000000,
+      "price": 26000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1731,7 +1641,7 @@
     {
       "id": 118,
       "name": "Specialized Thể thao Model 18",
-"price": 23000000,
+      "price": 23000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1745,7 +1655,7 @@
     {
       "id": 119,
       "name": "Trek Thể thao Model 19",
-"price": 31000000,
+      "price": 31000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1759,7 +1669,7 @@
     {
       "id": 120,
       "name": "Trek Thể thao Model 20",
-"price": 20500000,
+      "price": 20500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1773,7 +1683,7 @@
     {
       "id": 121,
       "name": "Specialized Thể thao Model 21",
-"price": 21500000,
+      "price": 21500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1787,7 +1697,7 @@
     {
       "id": 122,
       "name": "Trek Thể thao Model 22",
-"price": 31500000,
+      "price": 31500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1801,7 +1711,7 @@
     {
       "id": 123,
       "name": "Giant Thể thao Model 23",
-"price": 30500000,
+      "price": 30500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1815,7 +1725,7 @@
     {
       "id": 124,
       "name": "Giant Thể thao Model 24",
-"price": 19500000,
+      "price": 19500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1829,7 +1739,7 @@
     {
       "id": 125,
       "name": "Giant Thể thao Model 25",
-"price": 27000000,
+      "price": 27000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1843,7 +1753,7 @@
     {
       "id": 126,
       "name": "Specialized Thể thao Model 26",
-"price": 13500000,
+      "price": 13500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1857,7 +1767,7 @@
     {
       "id": 127,
       "name": "Specialized Thể thao Model 27",
-"price": 33500000,
+      "price": 33500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1871,7 +1781,7 @@
     {
       "id": 128,
       "name": "Specialized Thể thao Model 28",
-"price": 25000000,
+      "price": 25000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1885,7 +1795,7 @@
     {
       "id": 129,
       "name": "Giant Thể thao Model 29",
-"price": 26500000,
+      "price": 26500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1899,7 +1809,7 @@
     {
       "id": 130,
       "name": "Specialized Thể thao Model 30",
-"price": 29000000,
+      "price": 29000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1913,7 +1823,7 @@
     {
       "id": 131,
       "name": "Giant Thể thao Model 31",
-"price": 19000000,
+      "price": 19000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1927,7 +1837,7 @@
     {
       "id": 132,
       "name": "Trek Thể thao Model 32",
-"price": 20500000,
+      "price": 20500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1941,7 +1851,7 @@
     {
       "id": 133,
       "name": "Giant Thể thao Model 33",
-"price": 19500000,
+      "price": 19500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1955,7 +1865,7 @@
     {
       "id": 134,
       "name": "Trek Thể thao Model 34",
-"price": 28000000,
+      "price": 28000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1969,7 +1879,7 @@
     {
       "id": 135,
       "name": "Giant Thể thao Model 35",
-"price": 32500000,
+      "price": 32500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1983,7 +1893,7 @@
     {
       "id": 136,
       "name": "Trek Thể thao Model 36",
-"price": 22500000,
+      "price": 22500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -1997,7 +1907,7 @@
     {
       "id": 137,
       "name": "Trek Thể thao Model 37",
-"price": 17500000,
+      "price": 17500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2011,7 +1921,7 @@
     {
       "id": 138,
       "name": "Giant Thể thao Model 38",
-"price": 22500000,
+      "price": 22500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2025,7 +1935,7 @@
     {
       "id": 139,
       "name": "Specialized Thể thao Model 39",
-"price": 31000000,
+      "price": 31000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2039,7 +1949,7 @@
     {
       "id": 140,
       "name": "Giant Thể thao Model 40",
-"price": 24500000,
+      "price": 24500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2053,7 +1963,7 @@
     {
       "id": 141,
       "name": "Trek Thể thao Model 41",
-"price": 14000000,
+      "price": 14000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2067,7 +1977,7 @@
     {
       "id": 142,
       "name": "Giant Thể thao Model 42",
-"price": 12000000,
+      "price": 12000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2081,7 +1991,7 @@
     {
       "id": 143,
       "name": "Specialized Thể thao Model 43",
-"price": 32500000,
+      "price": 32500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2095,7 +2005,7 @@
     {
       "id": 144,
       "name": "Specialized Thể thao Model 44",
-"price": 30000000,
+      "price": 30000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2109,7 +2019,7 @@
     {
       "id": 145,
       "name": "Giant Thể thao Model 45",
-"price": 31500000,
+      "price": 31500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2123,7 +2033,7 @@
     {
       "id": 146,
       "name": "Specialized Thể thao Model 46",
-"price": 19500000,
+      "price": 19500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2137,7 +2047,7 @@
     {
       "id": 147,
       "name": "Specialized Thể thao Model 47",
-"price": 18000000,
+      "price": 18000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2151,7 +2061,7 @@
     {
       "id": 148,
       "name": "Giant Thể thao Model 48",
-"price": 24500000,
+      "price": 24500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2165,7 +2075,7 @@
     {
       "id": 149,
       "name": "Trek Thể thao Model 49",
-"price": 13500000,
+      "price": 13500000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2179,7 +2089,7 @@
     {
       "id": 150,
       "name": "Giant Thể thao Model 50",
-"price": 27000000,
+      "price": 27000000,
       "image": "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp thể thao chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2193,7 +2103,7 @@
     {
       "id": 151,
       "name": "Cannondale Đua Model 1",
-"price": 59500000,
+      "price": 59500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2207,7 +2117,7 @@
     {
       "id": 152,
       "name": "Cannondale Đua Model 2",
-"price": 22500000,
+      "price": 22500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2221,7 +2131,7 @@
     {
       "id": 153,
       "name": "Cannondale Đua Model 3",
-"price": 45000000,
+      "price": 45000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2235,7 +2145,7 @@
     {
       "id": 154,
       "name": "Specialized Đua Model 4",
-"price": 23500000,
+      "price": 23500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2249,7 +2159,7 @@
     {
       "id": 155,
       "name": "Specialized Đua Model 5",
-"price": 35500000,
+      "price": 35500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2263,7 +2173,7 @@
     {
       "id": 156,
       "name": "Specialized Đua Model 6",
-"price": 37000000,
+      "price": 37000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2277,7 +2187,7 @@
     {
       "id": 157,
       "name": "Cannondale Đua Model 7",
-"price": 33000000,
+      "price": 33000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2291,7 +2201,7 @@
     {
       "id": 158,
       "name": "Cannondale Đua Model 8",
-"price": 25000000,
+      "price": 25000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2305,7 +2215,7 @@
     {
       "id": 159,
       "name": "Trek Đua Model 9",
-"price": 58500000,
+      "price": 58500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2319,7 +2229,7 @@
     {
       "id": 160,
       "name": "Cannondale Đua Model 10",
-"price": 38500000,
+      "price": 38500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2333,7 +2243,7 @@
     {
       "id": 161,
       "name": "Trek Đua Model 11",
-"price": 25500000,
+      "price": 25500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2347,7 +2257,7 @@
     {
       "id": 162,
       "name": "Trek Đua Model 12",
-"price": 43500000,
+      "price": 43500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2361,7 +2271,7 @@
     {
       "id": 163,
       "name": "Specialized Đua Model 13",
-"price": 19500000,
+      "price": 19500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2375,7 +2285,7 @@
     {
       "id": 164,
       "name": "Specialized Đua Model 14",
-"price": 51000000,
+      "price": 51000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2389,7 +2299,7 @@
     {
       "id": 165,
       "name": "Cannondale Đua Model 15",
-"price": 49000000,
+      "price": 49000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2403,7 +2313,7 @@
     {
       "id": 166,
       "name": "Cannondale Đua Model 16",
-"price": 39500000,
+      "price": 39500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2417,7 +2327,7 @@
     {
       "id": 167,
       "name": "Cannondale Đua Model 17",
-"price": 24500000,
+      "price": 24500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2431,7 +2341,7 @@
     {
       "id": 168,
       "name": "Cannondale Đua Model 18",
-"price": 43000000,
+      "price": 43000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2445,7 +2355,7 @@
     {
       "id": 169,
       "name": "Specialized Đua Model 19",
-"price": 55500000,
+      "price": 55500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2459,7 +2369,7 @@
     {
       "id": 170,
       "name": "Specialized Đua Model 20",
-"price": 23500000,
+      "price": 23500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2473,7 +2383,7 @@
     {
       "id": 171,
       "name": "Specialized Đua Model 21",
-"price": 45000000,
+      "price": 45000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2487,7 +2397,7 @@
     {
       "id": 172,
       "name": "Specialized Đua Model 22",
-"price": 52000000,
+      "price": 52000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2501,7 +2411,7 @@
     {
       "id": 173,
       "name": "Trek Đua Model 23",
-"price": 55500000,
+      "price": 55500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2515,7 +2425,7 @@
     {
       "id": 174,
       "name": "Trek Đua Model 24",
-"price": 25000000,
+      "price": 25000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2529,7 +2439,7 @@
     {
       "id": 175,
       "name": "Trek Đua Model 25",
-"price": 41000000,
+      "price": 41000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2543,7 +2453,7 @@
     {
       "id": 176,
       "name": "Specialized Đua Model 26",
-"price": 29500000,
+      "price": 29500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2557,7 +2467,7 @@
     {
       "id": 177,
       "name": "Specialized Đua Model 27",
-"price": 22000000,
+      "price": 22000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2571,7 +2481,7 @@
     {
       "id": 178,
       "name": "Specialized Đua Model 28",
-"price": 25500000,
+      "price": 25500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2585,7 +2495,7 @@
     {
       "id": 179,
       "name": "Cannondale Đua Model 29",
-"price": 31000000,
+      "price": 31000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2599,7 +2509,7 @@
     {
       "id": 180,
       "name": "Cannondale Đua Model 30",
-"price": 41500000,
+      "price": 41500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2613,7 +2523,7 @@
     {
       "id": 181,
       "name": "Cannondale Đua Model 31",
-"price": 46000000,
+      "price": 46000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2627,7 +2537,7 @@
     {
       "id": 182,
       "name": "Cannondale Đua Model 32",
-"price": 37500000,
+      "price": 37500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2641,7 +2551,7 @@
     {
       "id": 183,
       "name": "Cannondale Đua Model 33",
-"price": 33500000,
+      "price": 33500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2655,7 +2565,7 @@
     {
       "id": 184,
       "name": "Specialized Đua Model 34",
-"price": 51500000,
+      "price": 51500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2669,7 +2579,7 @@
     {
       "id": 185,
       "name": "Trek Đua Model 35",
-"price": 48500000,
+      "price": 48500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2683,7 +2593,7 @@
     {
       "id": 186,
       "name": "Trek Đua Model 36",
-"price": 19500000,
+      "price": 19500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2697,7 +2607,7 @@
     {
       "id": 187,
       "name": "Trek Đua Model 37",
-"price": 43500000,
+      "price": 43500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2711,7 +2621,7 @@
     {
       "id": 188,
       "name": "Specialized Đua Model 38",
-"price": 33000000,
+      "price": 33000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2725,7 +2635,7 @@
     {
       "id": 189,
       "name": "Cannondale Đua Model 39",
-"price": 28500000,
+      "price": 28500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2739,7 +2649,7 @@
     {
       "id": 190,
       "name": "Trek Đua Model 40",
-"price": 28000000,
+      "price": 28000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2753,7 +2663,7 @@
     {
       "id": 191,
       "name": "Specialized Đua Model 41",
-"price": 59000000,
+      "price": 59000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2767,7 +2677,7 @@
     {
       "id": 192,
       "name": "Trek Đua Model 42",
-"price": 48500000,
+      "price": 48500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2781,7 +2691,7 @@
     {
       "id": 193,
       "name": "Cannondale Đua Model 43",
-"price": 23500000,
+      "price": 23500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2795,7 +2705,7 @@
     {
       "id": 194,
       "name": "Cannondale Đua Model 44",
-"price": 47000000,
+      "price": 47000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2809,7 +2719,7 @@
     {
       "id": 195,
       "name": "Cannondale Đua Model 45",
-"price": 37500000,
+      "price": 37500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2823,7 +2733,7 @@
     {
       "id": 196,
       "name": "Trek Đua Model 46",
-"price": 21500000,
+      "price": 21500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2837,7 +2747,7 @@
     {
       "id": 197,
       "name": "Trek Đua Model 47",
-"price": 33500000,
+      "price": 33500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2851,7 +2761,7 @@
     {
       "id": 198,
       "name": "Trek Đua Model 48",
-"price": 53500000,
+      "price": 53500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Trek, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2865,7 +2775,7 @@
     {
       "id": 199,
       "name": "Specialized Đua Model 49",
-"price": 39500000,
+      "price": 39500000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Specialized, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2879,7 +2789,7 @@
     {
       "id": 200,
       "name": "Cannondale Đua Model 50",
-"price": 27000000,
+      "price": 27000000,
       "image": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp đua chính hãng Cannondale, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2893,7 +2803,7 @@
     {
       "id": 201,
       "name": "RoyalBaby Trẻ em Model 1",
-"price": 5500000,
+      "price": 5500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2907,7 +2817,7 @@
     {
       "id": 202,
       "name": "Giant Trẻ em Model 2",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2921,7 +2831,7 @@
     {
       "id": 203,
       "name": "Trinx Trẻ em Model 3",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2935,7 +2845,7 @@
     {
       "id": 204,
       "name": "RoyalBaby Trẻ em Model 4",
-"price": 5000000,
+      "price": 5000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2949,7 +2859,7 @@
     {
       "id": 205,
       "name": "Giant Trẻ em Model 5",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2963,7 +2873,7 @@
     {
       "id": 206,
       "name": "RoyalBaby Trẻ em Model 6",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2977,7 +2887,7 @@
     {
       "id": 207,
       "name": "Trinx Trẻ em Model 7",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -2991,7 +2901,7 @@
     {
       "id": 208,
       "name": "Trinx Trẻ em Model 8",
-"price": 3000000,
+      "price": 3000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3005,7 +2915,7 @@
     {
       "id": 209,
       "name": "Giant Trẻ em Model 9",
-"price": 3000000,
+      "price": 3000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3019,7 +2929,7 @@
     {
       "id": 210,
       "name": "RoyalBaby Trẻ em Model 10",
-"price": 5500000,
+      "price": 5500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3033,7 +2943,7 @@
     {
       "id": 211,
       "name": "Giant Trẻ em Model 11",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3047,7 +2957,7 @@
     {
       "id": 212,
       "name": "Trinx Trẻ em Model 12",
-"price": 5500000,
+      "price": 5500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3061,7 +2971,7 @@
     {
       "id": 213,
       "name": "RoyalBaby Trẻ em Model 13",
-"price": 3000000,
+      "price": 3000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3075,7 +2985,7 @@
     {
       "id": 214,
       "name": "Trinx Trẻ em Model 14",
-"price": 6000000,
+      "price": 6000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3089,7 +2999,7 @@
     {
       "id": 215,
       "name": "Trinx Trẻ em Model 15",
-"price": 3000000,
+      "price": 3000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3103,7 +3013,7 @@
     {
       "id": 216,
       "name": "RoyalBaby Trẻ em Model 16",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3117,7 +3027,7 @@
     {
       "id": 217,
       "name": "Trinx Trẻ em Model 17",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3131,7 +3041,7 @@
     {
       "id": 218,
       "name": "Trinx Trẻ em Model 18",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3145,7 +3055,7 @@
     {
       "id": 219,
       "name": "RoyalBaby Trẻ em Model 19",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3159,7 +3069,7 @@
     {
       "id": 220,
       "name": "Giant Trẻ em Model 20",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3173,7 +3083,7 @@
     {
       "id": 221,
       "name": "Giant Trẻ em Model 21",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3187,7 +3097,7 @@
     {
       "id": 222,
       "name": "RoyalBaby Trẻ em Model 22",
-"price": 6500000,
+      "price": 6500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3201,7 +3111,7 @@
     {
       "id": 223,
       "name": "Giant Trẻ em Model 23",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3215,7 +3125,7 @@
     {
       "id": 224,
       "name": "Trinx Trẻ em Model 24",
-"price": 4500000,
+      "price": 4500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3229,7 +3139,7 @@
     {
       "id": 225,
       "name": "RoyalBaby Trẻ em Model 25",
-"price": 5500000,
+      "price": 5500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3243,7 +3153,7 @@
     {
       "id": 226,
       "name": "Trinx Trẻ em Model 26",
-"price": 5000000,
+      "price": 5000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3257,7 +3167,7 @@
     {
       "id": 227,
       "name": "Giant Trẻ em Model 27",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3271,7 +3181,7 @@
     {
       "id": 228,
       "name": "Giant Trẻ em Model 28",
-"price": 5500000,
+      "price": 5500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3285,7 +3195,7 @@
     {
       "id": 229,
       "name": "Trinx Trẻ em Model 29",
-"price": 5000000,
+      "price": 5000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3299,7 +3209,7 @@
     {
       "id": 230,
       "name": "Trinx Trẻ em Model 30",
-"price": 6500000,
+      "price": 6500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3313,7 +3223,7 @@
     {
       "id": 231,
       "name": "Giant Trẻ em Model 31",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3327,7 +3237,7 @@
     {
       "id": 232,
       "name": "RoyalBaby Trẻ em Model 32",
-"price": 4500000,
+      "price": 4500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3341,7 +3251,7 @@
     {
       "id": 233,
       "name": "Giant Trẻ em Model 33",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3355,7 +3265,7 @@
     {
       "id": 234,
       "name": "RoyalBaby Trẻ em Model 34",
-"price": 6500000,
+      "price": 6500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3369,7 +3279,7 @@
     {
       "id": 235,
       "name": "RoyalBaby Trẻ em Model 35",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3383,7 +3293,7 @@
     {
       "id": 236,
       "name": "RoyalBaby Trẻ em Model 36",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3397,7 +3307,7 @@
     {
       "id": 237,
       "name": "Giant Trẻ em Model 37",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3411,7 +3321,7 @@
     {
       "id": 238,
       "name": "RoyalBaby Trẻ em Model 38",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3425,7 +3335,7 @@
     {
       "id": 239,
       "name": "RoyalBaby Trẻ em Model 39",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3439,7 +3349,7 @@
     {
       "id": 240,
       "name": "RoyalBaby Trẻ em Model 40",
-"price": 5500000,
+      "price": 5500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3453,7 +3363,7 @@
     {
       "id": 241,
       "name": "Giant Trẻ em Model 41",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3467,7 +3377,7 @@
     {
       "id": 242,
       "name": "Trinx Trẻ em Model 42",
-"price": 3000000,
+      "price": 3000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3481,7 +3391,7 @@
     {
       "id": 243,
       "name": "Trinx Trẻ em Model 43",
-"price": 6000000,
+      "price": 6000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3495,7 +3405,7 @@
     {
       "id": 244,
       "name": "RoyalBaby Trẻ em Model 44",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3509,7 +3419,7 @@
     {
       "id": 245,
       "name": "RoyalBaby Trẻ em Model 45",
-"price": 3000000,
+      "price": 3000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3523,7 +3433,7 @@
     {
       "id": 246,
       "name": "Trinx Trẻ em Model 46",
-"price": 6000000,
+      "price": 6000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3537,7 +3447,7 @@
     {
       "id": 247,
       "name": "Trinx Trẻ em Model 47",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3551,7 +3461,7 @@
     {
       "id": 248,
       "name": "Trinx Trẻ em Model 48",
-"price": 2500000,
+      "price": 2500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng Trinx, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3565,7 +3475,7 @@
     {
       "id": 249,
       "name": "RoyalBaby Trẻ em Model 49",
-"price": 4000000,
+      "price": 4000000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3579,7 +3489,7 @@
     {
       "id": 250,
       "name": "RoyalBaby Trẻ em Model 50",
-"price": 3500000,
+      "price": 3500000,
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp trẻ em chính hãng RoyalBaby, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3593,7 +3503,7 @@
     {
       "id": 251,
       "name": "Dahon Gấp Model 1",
-"price": 10000000,
+      "price": 10000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3607,7 +3517,7 @@
     {
       "id": 252,
       "name": "Giant Gấp Model 2",
-"price": 11500000,
+      "price": 11500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3621,7 +3531,7 @@
     {
       "id": 253,
       "name": "Dahon Gấp Model 3",
-"price": 9500000,
+      "price": 9500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3635,7 +3545,7 @@
     {
       "id": 254,
       "name": "Dahon Gấp Model 4",
-"price": 12000000,
+      "price": 12000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3649,7 +3559,7 @@
     {
       "id": 255,
       "name": "Giant Gấp Model 5",
-"price": 17000000,
+      "price": 17000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3663,7 +3573,7 @@
     {
       "id": 256,
       "name": "Tern Gấp Model 6",
-"price": 7000000,
+      "price": 7000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3677,7 +3587,7 @@
     {
       "id": 257,
       "name": "Giant Gấp Model 7",
-"price": 12000000,
+      "price": 12000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3719,7 +3629,7 @@
     {
       "id": 260,
       "name": "Tern Gấp Model 10",
-"price": 12000000,
+      "price": 12000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3733,7 +3643,7 @@
     {
       "id": 261,
       "name": "Dahon Gấp Model 11",
-"price": 7000000,
+      "price": 7000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3747,7 +3657,7 @@
     {
       "id": 262,
       "name": "Dahon Gấp Model 12",
-"price": 10000000,
+      "price": 10000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3761,7 +3671,7 @@
     {
       "id": 263,
       "name": "Giant Gấp Model 13",
-"price": 7500000,
+      "price": 7500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3775,7 +3685,7 @@
     {
       "id": 264,
       "name": "Tern Gấp Model 14",
-"price": 13000000,
+      "price": 13000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3789,7 +3699,7 @@
     {
       "id": 265,
       "name": "Giant Gấp Model 15",
-"price": 18000000,
+      "price": 18000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3803,7 +3713,7 @@
     {
       "id": 266,
       "name": "Tern Gấp Model 16",
-"price": 9500000,
+      "price": 9500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3817,7 +3727,7 @@
     {
       "id": 267,
       "name": "Giant Gấp Model 17",
-"price": 8500000,
+      "price": 8500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3831,7 +3741,7 @@
     {
       "id": 268,
       "name": "Tern Gấp Model 18",
-"price": 19500000,
+      "price": 19500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3845,7 +3755,7 @@
     {
       "id": 269,
       "name": "Dahon Gấp Model 19",
-"price": 13500000,
+      "price": 13500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3859,7 +3769,7 @@
     {
       "id": 270,
       "name": "Dahon Gấp Model 20",
-"price": 15000000,
+      "price": 15000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3873,7 +3783,7 @@
     {
       "id": 271,
       "name": "Dahon Gấp Model 21",
-"price": 19000000,
+      "price": 19000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3887,7 +3797,7 @@
     {
       "id": 272,
       "name": "Tern Gấp Model 22",
-"price": 18500000,
+      "price": 18500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3901,7 +3811,7 @@
     {
       "id": 273,
       "name": "Giant Gấp Model 23",
-"price": 11500000,
+      "price": 11500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3915,7 +3825,7 @@
     {
       "id": 274,
       "name": "Giant Gấp Model 24",
-"price": 19000000,
+      "price": 19000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3929,7 +3839,7 @@
     {
       "id": 275,
       "name": "Giant Gấp Model 25",
-"price": 17000000,
+      "price": 17000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3943,7 +3853,7 @@
     {
       "id": 276,
       "name": "Giant Gấp Model 26",
-"price": 11500000,
+      "price": 11500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3957,7 +3867,7 @@
     {
       "id": 277,
       "name": "Tern Gấp Model 27",
-"price": 14500000,
+      "price": 14500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3971,7 +3881,7 @@
     {
       "id": 278,
       "name": "Dahon Gấp Model 28",
-"price": 12500000,
+      "price": 12500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3985,7 +3895,7 @@
     {
       "id": 279,
       "name": "Dahon Gấp Model 29",
-"price": 7000000,
+      "price": 7000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -3999,7 +3909,7 @@
     {
       "id": 280,
       "name": "Giant Gấp Model 30",
-"price": 15000000,
+      "price": 15000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4013,7 +3923,7 @@
     {
       "id": 281,
       "name": "Tern Gấp Model 31",
-"price": 16500000,
+      "price": 16500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4027,7 +3937,7 @@
     {
       "id": 282,
       "name": "Dahon Gấp Model 32",
-"price": 11500000,
+      "price": 11500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4041,7 +3951,7 @@
     {
       "id": 283,
       "name": "Dahon Gấp Model 33",
-"price": 8000000,
+      "price": 8000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4055,7 +3965,7 @@
     {
       "id": 284,
       "name": "Dahon Gấp Model 34",
-"price": 13500000,
+      "price": 13500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4069,7 +3979,7 @@
     {
       "id": 285,
       "name": "Giant Gấp Model 35",
-"price": 19000000,
+      "price": 19000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4083,7 +3993,7 @@
     {
       "id": 286,
       "name": "Giant Gấp Model 36",
-"price": 12500000,
+      "price": 12500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4097,7 +4007,7 @@
     {
       "id": 287,
       "name": "Giant Gấp Model 37",
-"price": 10000000,
+      "price": 10000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4111,7 +4021,7 @@
     {
       "id": 288,
       "name": "Giant Gấp Model 38",
-"price": 7000000,
+      "price": 7000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4125,7 +4035,7 @@
     {
       "id": 289,
       "name": "Dahon Gấp Model 39",
-"price": 13000000,
+      "price": 13000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Dahon, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4139,7 +4049,7 @@
     {
       "id": 290,
       "name": "Tern Gấp Model 40",
-"price": 10500000,
+      "price": 10500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4153,7 +4063,7 @@
     {
       "id": 291,
       "name": "Giant Gấp Model 41",
-"price": 12000000,
+      "price": 12000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4167,7 +4077,7 @@
     {
       "id": 292,
       "name": "Giant Gấp Model 42",
-"price": 15000000,
+      "price": 15000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4181,7 +4091,7 @@
     {
       "id": 293,
       "name": "Giant Gấp Model 43",
-"price": 18500000,
+      "price": 18500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4195,7 +4105,7 @@
     {
       "id": 294,
       "name": "Tern Gấp Model 44",
-"price": 7500000,
+      "price": 7500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4209,7 +4119,7 @@
     {
       "id": 295,
       "name": "Tern Gấp Model 45",
-"price": 19000000,
+      "price": 19000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4223,7 +4133,7 @@
     {
       "id": 296,
       "name": "Giant Gấp Model 46",
-"price": 12500000,
+      "price": 12500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4237,7 +4147,7 @@
     {
       "id": 297,
       "name": "Tern Gấp Model 47",
-"price": 9500000,
+      "price": 9500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4251,7 +4161,7 @@
     {
       "id": 298,
       "name": "Giant Gấp Model 48",
-"price": 10500000,
+      "price": 10500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4265,7 +4175,7 @@
     {
       "id": 299,
       "name": "Tern Gấp Model 49",
-"price": 7000000,
+      "price": 7000000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Tern, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
@@ -4279,7 +4189,7 @@
     {
       "id": 300,
       "name": "Giant Gấp Model 50",
-"price": 9500000,
+      "price": 9500000,
       "image": "https://images.unsplash.com/photo-1605719125065-3dd9e3c3fd7c?auto=format&fit=crop&w=800&q=80",
       "description": "Xe đạp gấp chính hãng Giant, thiết kế phù hợp thị trường Việt Nam.",
       "specs": {
