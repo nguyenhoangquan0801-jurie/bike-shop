@@ -6,6 +6,8 @@ import About from './pages/About';
 import ProductDetail from './components/ProductDetail';
 import Checkout from './components/Checkout';
 import { productsAPI } from './api/products';
+import Auth from './components/Auth';
+import UserMenu from './components/UserMenu';
 import './App.css';
 
 function App() {
@@ -71,11 +73,26 @@ const sampleProducts = [
 
   const [error, setError] = useState(null);
 
+  const [showAuth, setShowAuth] = useState(false);
+
+  const [currentUser, setCurrentUser] = useState(null);
+
+  const [userOrders, setUserOrders] = useState([]);
+
+  useEffect(() => {
+  const savedUser = localStorage.getItem('currentUser');
+  if (savedUser) {
+    setCurrentUser(JSON.parse(savedUser));
+  }
+  const orders = localStorage.getItem(`orders_${savedUser ? JSON.parse(savedUser).id : ''}`) || '[]';
+  setUserOrders(JSON.parse(orders));
+}, []);
+
   useEffect(() => {
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        const data = await productsAPI.getAllProducts();
+const data = await productsAPI.getAllProducts();
         setProducts(data);
         setError(null);
       } catch (err) {
@@ -156,10 +173,40 @@ const sampleProducts = [
   addToCart(product);
   };
 
-  const handleConfirmOrder = (orderData) => {
+  const handleLogin = (user) => {
+  setCurrentUser(user);
+  alert(`Chào mừng ${user.fullName} đã quay trở lại!`);
+};
+
+const handleRegister = (user) => {
+  // Registration is handled in Auth component
+};
+
+const handleLogout = () => {
+  setCurrentUser(null);
+  alert('Đã đăng xuất thành công!');
+};
+
+const handleConfirmOrder = (orderData) => {
+  const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
   console.log('Order confirmed:', orderData);
   console.log('Cart items:', cart);
-  console.log('Total:', cart.reduce((sum, item) => sum + (item.price * item.quantity), 0));
+
+  if (currentUser) {
+    const order = {
+      id: Date.now(),
+      userId: currentUser.id,
+      items: [...cart],
+      total: total,
+      customerInfo: orderData,
+      status: 'pending',
+      date: new Date().toISOString()
+    };
+const userOrders = JSON.parse(localStorage.getItem(`orders_${currentUser.id}`) || '[]');
+    userOrders.push(order);
+    localStorage.setItem(`orders_${currentUser.id}`, JSON.stringify(userOrders));
+    setUserOrders(userOrders);
+  }
   
   alert(`Đơn hàng đã được xác nhận!\nCảm ơn bạn đã mua sắm tại Bike Shop!\nTổng tiền: ${formatPrice(cart.reduce((sum, item) => sum + (item.price * item.quantity), 0))}`);
   
@@ -197,6 +244,18 @@ const sampleProducts = [
             />
           </div>
           <div className="header-controls">
+            <UserMenu 
+              user={currentUser}
+              onLogout={handleLogout}
+              onShowAuth={() => setShowAuth(true)}
+              onShowOrders={() => {
+                if (currentUser) {
+                  alert(`Bạn có ${userOrders.length} đơn hàng`);
+                } else {
+                  setShowAuth(true);
+                }
+              }}
+            />
             <div className="wishlist-info">
               {wishlist.length}
             </div>
@@ -232,8 +291,7 @@ const sampleProducts = [
           <Route path="/about" element={<About />} />
         </Routes>
   </main>
-
-    {/* Cart sidebar */}
+{/* Cart sidebar */}
       <aside className="cart">
         <h3>Giỏ hàng ({cart.reduce((total, item) => total + item.quantity, 0)})</h3>
         {cart.length === 0 ? (
@@ -310,7 +368,7 @@ const sampleProducts = [
       {selectedProduct && (
         <ProductDetail
           product={selectedProduct}
-          onClose={closeProductDetail}
+onClose={closeProductDetail}
           onAddToCart={addToCartFromModal}
         />
       )}
@@ -320,6 +378,13 @@ const sampleProducts = [
           total={cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)}
           onClose={() => setShowCheckout(false)}
           onConfirmOrder={handleConfirmOrder}
+        />
+      )}
+      {showAuth && (
+        <Auth
+          onClose={() => setShowAuth(false)}
+          onLogin={handleLogin}
+          onRegister={handleRegister}
         />
       )}
     </div>
