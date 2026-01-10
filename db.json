@@ -5699,6 +5699,1716 @@
         "gears": "7 tốc độ",
         "brakes": "Phanh vành"
       }
+    },
+    {
+      "id": 301,
+      "name": "Xe đạp Đua mẫu 1",
+      "price": 16958752,
+      "originalPrice": 21476362,
+      "discount": 21,
+      "image": "https://images.unsplash.com/photo-1605050825021-0de4d256fcb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxfHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 302,
+      "name": "Xe đạp Đua mẫu 2",
+      "price": 18335680,
+      "originalPrice": 22814950,
+      "discount": 20,
+      "image": "https://images.unsplash.com/photo-1605050825077-289f85b6cf43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyfHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 303,
+      "name": "Xe đạp Đua mẫu 3",
+      "price": 12417850,
+      "originalPrice": 13842267,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1605050824853-7fb0755face3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwzfHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 304,
+      "name": "Xe đạp Đua mẫu 4",
+      "price": 22711328,
+      "originalPrice": 26220129,
+      "discount": 13,
+      "image": "https://images.unsplash.com/photo-1605050825221-66a810cb6d36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw0fHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 305,
+      "name": "Xe đạp Đua mẫu 5",
+      "price": 22922933,
+      "originalPrice": 27324586,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1605737710291-98fe72919667?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw1fHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 306,
+      "name": "Xe đạp Đua mẫu 6",
+      "price": 22840132,
+      "originalPrice": 28332988,
+      "discount": 19,
+      "image": "https://images.unsplash.com/photo-1683107982987-a04cc659c83e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw2fHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 307,
+      "name": "Xe đạp Đua mẫu 7",
+      "price": 20702186,
+      "originalPrice": 23529810,
+      "discount": 12,
+      "image": "https://images.unsplash.com/photo-1600403477955-2b8c2cfab221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw3fHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 308,
+      "name": "Xe đạp Đua mẫu 8",
+      "price": 20489823,
+      "originalPrice": 25990443,
+      "discount": 21,
+      "image": "https://images.unsplash.com/photo-1605050825338-7ce647cc633f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw4fHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 309,
+      "name": "Xe đạp Đua mẫu 9",
+      "price": 19572646,
+      "originalPrice": 25121506,
+      "discount": 22,
+      "image": "https://images.unsplash.com/photo-1605050825473-dddb75d9e703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw5fHxyYWNpbmclMjBiaWN5Y2xlfGVufDF8fHx8MTc2ODA1ODQzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 310,
+      "name": "Xe đạp Đua mẫu 10",
+      "price": 20541562,
+      "originalPrice": 25846554,
+      "discount": 21,
+      "image": "https://images.unsplash.com/photo-1605050825490-21823990ad69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMHx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 311,
+      "name": "Xe đạp Đua mẫu 11",
+      "price": 24117358,
+      "originalPrice": 30373528,
+      "discount": 21,
+      "image": "https://images.unsplash.com/photo-1605050824920-0c7f4e04d111?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMXx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 312,
+      "name": "Xe đạp Đua mẫu 12",
+      "price": 19540165,
+      "originalPrice": 21693089,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1729983164023-f1a38288e891?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMnx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 313,
+      "name": "Xe đạp Đua mẫu 13",
+      "price": 15611173,
+      "originalPrice": 18271454,
+      "discount": 15,
+      "image": "https://images.unsplash.com/photo-1563276703-69524f4f5d10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxM3x8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 314,
+      "name": "Xe đạp Đua mẫu 14",
+      "price": 13860273,
+      "originalPrice": 17943886,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1589976847992-227f7f74d90d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNHx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 315,
+      "name": "Xe đạp Đua mẫu 15",
+      "price": 21157380,
+      "originalPrice": 24370537,
+      "discount": 13,
+      "image": "https://images.unsplash.com/photo-1558170019-fafc41195d9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNXx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 316,
+      "name": "Xe đạp Đua mẫu 16",
+      "price": 18254068,
+      "originalPrice": 21867884,
+      "discount": 17,
+      "image": "https://images.unsplash.com/photo-1762009287888-293e0919a74e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNnx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 317,
+      "name": "Xe đạp Đua mẫu 17",
+      "price": 19087668,
+      "originalPrice": 24466413,
+      "discount": 22,
+      "image": "https://images.unsplash.com/photo-1760001868208-be45d747a46c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxN3x8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 318,
+      "name": "Xe đạp Đua mẫu 18",
+      "price": 22641149,
+      "originalPrice": 29223161,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1696832610884-69ba2bb887cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxOHx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 319,
+      "name": "Xe đạp Đua mẫu 19",
+      "price": 17260887,
+      "originalPrice": 21145780,
+      "discount": 18,
+      "image": "https://images.unsplash.com/photo-1561057110-414e485d1ccb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxOXx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 320,
+      "name": "Xe đạp Đua mẫu 20",
+      "price": 20577296,
+      "originalPrice": 25224181,
+      "discount": 18,
+      "image": "https://images.unsplash.com/photo-1612561634367-c224fbb2cabb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMHx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 321,
+      "name": "Xe đạp Đua mẫu 21",
+      "price": 17975896,
+      "originalPrice": 20087854,
+      "discount": 11,
+      "image": "https://images.unsplash.com/photo-1764067521927-9fc70adc5a31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMXx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 322,
+      "name": "Xe đạp Đua mẫu 22",
+      "price": 12101749,
+      "originalPrice": 15541254,
+      "discount": 22,
+      "image": "https://images.unsplash.com/photo-1673870737524-0e4251c49d37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMnx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 323,
+      "name": "Xe đạp Đua mẫu 23",
+      "price": 19733451,
+      "originalPrice": 24133177,
+      "discount": 18,
+      "image": "https://images.unsplash.com/photo-1759047573588-0ee6ebc44897?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyM3x8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 324,
+      "name": "Xe đạp Đua mẫu 24",
+      "price": 16454181,
+      "originalPrice": 18380368,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1673870754139-4bb6b8a38353?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNHx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 325,
+      "name": "Xe đạp Đua mẫu 25",
+      "price": 12945609,
+      "originalPrice": 16063979,
+      "discount": 19,
+      "image": "https://images.unsplash.com/photo-1720723822630-bbb5106751b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNXx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 326,
+      "name": "Xe đạp Đua mẫu 26",
+      "price": 24316275,
+      "originalPrice": 29073401,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1549383661-540a4bbccbc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNnx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 327,
+      "name": "Xe đạp Đua mẫu 27",
+      "price": 15807738,
+      "originalPrice": 18539570,
+      "discount": 15,
+      "image": "https://images.unsplash.com/photo-1595749615311-da60cf2cd86f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyN3x8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 328,
+      "name": "Xe đạp Đua mẫu 28",
+      "price": 13853099,
+      "originalPrice": 16707225,
+      "discount": 17,
+      "image": "https://images.unsplash.com/photo-1652531407091-236b82b71941?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyOHx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 329,
+      "name": "Xe đạp Đua mẫu 29",
+      "price": 18687575,
+      "originalPrice": 20726592,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1600634577879-ea232d1feba2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyOXx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 330,
+      "name": "Xe đạp Đua mẫu 30",
+      "price": 12063242,
+      "originalPrice": 14559740,
+      "discount": 17,
+      "image": "https://images.unsplash.com/photo-1766119406825-66655547c223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwzMHx8cmFjaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Đua",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp đua chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "9.5kg",
+        "wheelSize": "700C",
+        "gears": "22 tốc độ",
+        "brakes": "Phanh đĩa cơ"
+      }
+    },
+    {
+      "id": 331,
+      "name": "Xe đạp Trẻ em mẫu 1",
+      "price": 2387131,
+      "originalPrice": 3012722,
+      "discount": 21,
+      "image": "https://images.unsplash.com/photo-1595182747080-3b43712dd27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxfHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 332,
+      "name": "Xe đạp Trẻ em mẫu 2",
+      "price": 3102215,
+      "originalPrice": 4007690,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1566728060299-ad216d6fa3c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyfHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 333,
+      "name": "Xe đạp Trẻ em mẫu 3",
+      "price": 2516878,
+      "originalPrice": 3129643,
+      "discount": 20,
+      "image": "https://images.unsplash.com/photo-1765979831421-6495a9324421?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwzfHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 334,
+      "name": "Xe đạp Trẻ em mẫu 4",
+      "price": 3928249,
+      "originalPrice": 4677031,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1696390015881-87746fa8f85f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw0fHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 335,
+      "name": "Xe đạp Trẻ em mẫu 5",
+      "price": 3734635,
+      "originalPrice": 4158446,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1665564233959-dc7a9e5f04eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw1fHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 336,
+      "name": "Xe đạp Trẻ em mẫu 6",
+      "price": 4503455,
+      "originalPrice": 4989404,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1660665630199-9270f79cf779?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw2fHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 337,
+      "name": "Xe đạp Trẻ em mẫu 7",
+      "price": 2573403,
+      "originalPrice": 3002404,
+      "discount": 14,
+      "image": "https://images.unsplash.com/photo-1762232621630-e11d16c69ab6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw3fHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 338,
+      "name": "Xe đạp Trẻ em mẫu 8",
+      "price": 4856261,
+      "originalPrice": 6219704,
+      "discount": 22,
+      "image": "https://images.unsplash.com/photo-1645103620336-dd803960e7e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw4fHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 339,
+      "name": "Xe đạp Trẻ em mẫu 9",
+      "price": 2616745,
+      "originalPrice": 3254867,
+      "discount": 20,
+      "image": "https://images.unsplash.com/photo-1759167582219-eac8eebd60ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw5fHxraWRzJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 340,
+      "name": "Xe đạp Trẻ em mẫu 10",
+      "price": 3801517,
+      "originalPrice": 4774035,
+      "discount": 20,
+      "image": "https://images.unsplash.com/photo-1598637992690-f9360aa2f7d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMHx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 341,
+      "name": "Xe đạp Trẻ em mẫu 11",
+      "price": 2092784,
+      "originalPrice": 2716702,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1621194856163-057388f57ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMXx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 342,
+      "name": "Xe đạp Trẻ em mẫu 12",
+      "price": 4911277,
+      "originalPrice": 5985848,
+      "discount": 18,
+      "image": "https://images.unsplash.com/photo-1765273559018-33cc51020671?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMnx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 343,
+      "name": "Xe đạp Trẻ em mẫu 13",
+      "price": 3570666,
+      "originalPrice": 4409609,
+      "discount": 19,
+      "image": "https://images.unsplash.com/photo-1583124688426-3128aec007f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxM3x8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 344,
+      "name": "Xe đạp Trẻ em mẫu 14",
+      "price": 3829435,
+      "originalPrice": 4944229,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1763705859633-f5dfa952fa4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNHx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 345,
+      "name": "Xe đạp Trẻ em mẫu 15",
+      "price": 2933346,
+      "originalPrice": 3415744,
+      "discount": 14,
+      "image": "https://images.unsplash.com/photo-1650947616344-d1e84b47bc8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNXx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 346,
+      "name": "Xe đạp Trẻ em mẫu 16",
+      "price": 4404804,
+      "originalPrice": 5074409,
+      "discount": 13,
+      "image": "https://images.unsplash.com/photo-1745150720460-71869b0faee7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNnx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 347,
+      "name": "Xe đạp Trẻ em mẫu 17",
+      "price": 2175375,
+      "originalPrice": 2420792,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1766021736555-0a430ce2c4a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxN3x8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 348,
+      "name": "Xe đạp Trẻ em mẫu 18",
+      "price": 3672239,
+      "originalPrice": 4289780,
+      "discount": 14,
+      "image": "https://images.unsplash.com/photo-1685549265502-1177e7124ecc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxOHx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 349,
+      "name": "Xe đạp Trẻ em mẫu 19",
+      "price": 2898687,
+      "originalPrice": 3729481,
+      "discount": 22,
+      "image": "https://images.unsplash.com/photo-1717853412914-77dd4588ec6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxOXx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 350,
+      "name": "Xe đạp Trẻ em mẫu 20",
+      "price": 2992540,
+      "originalPrice": 3550354,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1765605898338-116f386656d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMHx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 351,
+      "name": "Xe đạp Trẻ em mẫu 21",
+      "price": 3551845,
+      "originalPrice": 4606061,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1692681261954-bbd8aaf9919b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMXx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 352,
+      "name": "Xe đạp Trẻ em mẫu 22",
+      "price": 3484518,
+      "originalPrice": 3868822,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1595663823619-c46779b2d840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMnx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 353,
+      "name": "Xe đạp Trẻ em mẫu 23",
+      "price": 2117892,
+      "originalPrice": 2745352,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1759761349913-68e2b2cc76a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyM3x8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 354,
+      "name": "Xe đạp Trẻ em mẫu 24",
+      "price": 2160696,
+      "originalPrice": 2689877,
+      "discount": 20,
+      "image": "https://images.unsplash.com/photo-1763219805067-6b24e701acb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNHx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 355,
+      "name": "Xe đạp Trẻ em mẫu 25",
+      "price": 2116969,
+      "originalPrice": 2670726,
+      "discount": 21,
+      "image": "https://images.unsplash.com/photo-1765604546426-ff1bde6d9443?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNXx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 356,
+      "name": "Xe đạp Trẻ em mẫu 26",
+      "price": 4765488,
+      "originalPrice": 6177737,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1759300631869-dc9f87066f50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNnx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 357,
+      "name": "Xe đạp Trẻ em mẫu 27",
+      "price": 2833616,
+      "originalPrice": 3321103,
+      "discount": 15,
+      "image": "https://images.unsplash.com/photo-1643572464934-682ef0697e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyN3x8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 358,
+      "name": "Xe đạp Trẻ em mẫu 28",
+      "price": 2875620,
+      "originalPrice": 3287679,
+      "discount": 13,
+      "image": "https://images.unsplash.com/photo-1765605888954-97397ee84aaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyOHx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 359,
+      "name": "Xe đạp Trẻ em mẫu 29",
+      "price": 2860867,
+      "originalPrice": 3712826,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1766524791939-74919107832f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyOXx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 360,
+      "name": "Xe đạp Trẻ em mẫu 30",
+      "price": 3738082,
+      "originalPrice": 4248338,
+      "discount": 12,
+      "image": "https://images.unsplash.com/photo-1716559866608-35c45aacb458?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwzMHx8a2lkcyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Trẻ em",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp trẻ em chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "8kg",
+        "wheelSize": "16 inch",
+        "gears": "1 tốc độ",
+        "brakes": "Phanh vành"
+      }
+    },
+    {
+      "id": 361,
+      "name": "Xe đạp Gấp mẫu 1",
+      "price": 7972882,
+      "originalPrice": 9542405,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1758467614434-48c8b31f0a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxfHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 362,
+      "name": "Xe đạp Gấp mẫu 2",
+      "price": 6493042,
+      "originalPrice": 8393540,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1767519818578-419c17c0e164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyfHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 363,
+      "name": "Xe đạp Gấp mẫu 3",
+      "price": 9448979,
+      "originalPrice": 11224602,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1715570132756-a08913ee4a1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwzfHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 364,
+      "name": "Xe đạp Gấp mẫu 4",
+      "price": 7363784,
+      "originalPrice": 8400774,
+      "discount": 12,
+      "image": "https://images.unsplash.com/photo-1517132020230-beff8105d397?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw0fHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 365,
+      "name": "Xe đạp Gấp mẫu 5",
+      "price": 7558931,
+      "originalPrice": 8745707,
+      "discount": 14,
+      "image": "https://images.unsplash.com/photo-1633946939682-e268d2f8e054?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw1fHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 366,
+      "name": "Xe đạp Gấp mẫu 6",
+      "price": 8137200,
+      "originalPrice": 10084633,
+      "discount": 19,
+      "image": "https://images.unsplash.com/photo-1633946944737-08b1e57e5ec3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw2fHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 367,
+      "name": "Xe đạp Gấp mẫu 7",
+      "price": 9609222,
+      "originalPrice": 11673331,
+      "discount": 18,
+      "image": "https://images.unsplash.com/photo-1719885959194-44c60b62508b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw3fHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 368,
+      "name": "Xe đạp Gấp mẫu 8",
+      "price": 6363321,
+      "originalPrice": 7768342,
+      "discount": 18,
+      "image": "https://images.unsplash.com/photo-1719885959196-03139e36d22c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw4fHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 369,
+      "name": "Xe đạp Gấp mẫu 9",
+      "price": 6955257,
+      "originalPrice": 8487677,
+      "discount": 18,
+      "image": "https://images.unsplash.com/photo-1735888877367-bdc315bbedfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHw5fHxmb2xkaW5nJTIwYmljeWNsZXxlbnwxfHx8fDE3NjgwNTg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 370,
+      "name": "Xe đạp Gấp mẫu 10",
+      "price": 11066417,
+      "originalPrice": 13311217,
+      "discount": 17,
+      "image": "https://images.unsplash.com/photo-1632398282986-a9c0f517a80d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMHx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 371,
+      "name": "Xe đạp Gấp mẫu 11",
+      "price": 6560933,
+      "originalPrice": 7785078,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1698588801107-716189d30f75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMXx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 372,
+      "name": "Xe đạp Gấp mẫu 12",
+      "price": 7561156,
+      "originalPrice": 8510297,
+      "discount": 11,
+      "image": "https://images.unsplash.com/photo-1681825778094-3a3784aa0b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxMnx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 373,
+      "name": "Xe đạp Gấp mẫu 13",
+      "price": 7428259,
+      "originalPrice": 8722821,
+      "discount": 15,
+      "image": "https://images.unsplash.com/photo-1657768487052-56d010e407e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxM3x8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 374,
+      "name": "Xe đạp Gấp mẫu 14",
+      "price": 6383644,
+      "originalPrice": 7568545,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1659686353359-e84683ad06ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNHx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 375,
+      "name": "Xe đạp Gấp mẫu 15",
+      "price": 8865565,
+      "originalPrice": 10704447,
+      "discount": 17,
+      "image": "https://images.unsplash.com/photo-1660276412288-7f89179a997b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNXx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 376,
+      "name": "Xe đạp Gấp mẫu 16",
+      "price": 10690068,
+      "originalPrice": 13490429,
+      "discount": 21,
+      "image": "https://images.unsplash.com/photo-1658110266342-c8a6b84e1fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxNnx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 377,
+      "name": "Xe đạp Gấp mẫu 17",
+      "price": 11347358,
+      "originalPrice": 13795341,
+      "discount": 18,
+      "image": "https://images.unsplash.com/photo-1660276535376-5c9083f32265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxN3x8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 378,
+      "name": "Xe đạp Gấp mẫu 18",
+      "price": 10023743,
+      "originalPrice": 11127626,
+      "discount": 10,
+      "image": "https://images.unsplash.com/photo-1656906631330-def5e22bbec6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxOHx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 379,
+      "name": "Xe đạp Gấp mẫu 19",
+      "price": 9770762,
+      "originalPrice": 12259617,
+      "discount": 20,
+      "image": "https://images.unsplash.com/photo-1660276419026-c382b6827058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwxOXx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 380,
+      "name": "Xe đạp Gấp mẫu 20",
+      "price": 10808834,
+      "originalPrice": 13383257,
+      "discount": 19,
+      "image": "https://images.unsplash.com/photo-1656906630485-cf3dbef8fc11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMHx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 381,
+      "name": "Xe đạp Gấp mẫu 21",
+      "price": 10536831,
+      "originalPrice": 12456154,
+      "discount": 15,
+      "image": "https://images.unsplash.com/photo-1656906630460-a5dd332dfa50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMXx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 382,
+      "name": "Xe đạp Gấp mẫu 22",
+      "price": 11686505,
+      "originalPrice": 13777223,
+      "discount": 15,
+      "image": "https://images.unsplash.com/photo-1701687743136-6845cebda2d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyMnx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 383,
+      "name": "Xe đạp Gấp mẫu 23",
+      "price": 10948227,
+      "originalPrice": 13507475,
+      "discount": 19,
+      "image": "https://images.unsplash.com/photo-1582557678486-4c332c9d12c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyM3x8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 384,
+      "name": "Xe đạp Gấp mẫu 24",
+      "price": 11460583,
+      "originalPrice": 13182084,
+      "discount": 13,
+      "image": "https://images.unsplash.com/photo-1590272948536-f7a73640ab63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNHx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 385,
+      "name": "Xe đạp Gấp mẫu 25",
+      "price": 8584393,
+      "originalPrice": 9481436,
+      "discount": 9,
+      "image": "https://images.unsplash.com/photo-1633947030743-551f53cc1d5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNXx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 386,
+      "name": "Xe đạp Gấp mẫu 26",
+      "price": 6843135,
+      "originalPrice": 7667198,
+      "discount": 11,
+      "image": "https://images.unsplash.com/photo-1587113538625-8ab80f5ad01f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyNnx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 387,
+      "name": "Xe đạp Gấp mẫu 27",
+      "price": 7366725,
+      "originalPrice": 8772475,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1734599317961-d73bb9c2f3ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyN3x8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 388,
+      "name": "Xe đạp Gấp mẫu 28",
+      "price": 7252850,
+      "originalPrice": 8632884,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1656906628707-3c2ab4329d56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyOHx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 389,
+      "name": "Xe đạp Gấp mẫu 29",
+      "price": 11036903,
+      "originalPrice": 12634962,
+      "discount": 13,
+      "image": "https://images.unsplash.com/photo-1656906629942-9f60296f54be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwyOXx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
+    },
+    {
+      "id": 390,
+      "name": "Xe đạp Gấp mẫu 30",
+      "price": 11775192,
+      "originalPrice": 14078246,
+      "discount": 16,
+      "image": "https://images.unsplash.com/photo-1656906630565-a5ef1eb671f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTUyODN8MHwxfHNlYXJjaHwzMHx8Zm9sZGluZyUyMGJpY3ljbGV8ZW58MXx8fHwxNzY4MDU4NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "category": "Gấp",
+      "isOnSale": true,
+      "saleEnd": "2026-03-11",
+      "description": "Xe đạp gấp chất lượng cao, thiết kế tối ưu cho nhu cầu sử dụng.",
+      "specs": {
+        "material": "Khung hợp kim nhôm",
+        "weight": "12kg",
+        "wheelSize": "20 inch",
+        "gears": "7 tốc độ",
+        "brakes": "Phanh đĩa"
+      }
     }
   ]
 }
