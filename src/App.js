@@ -285,6 +285,13 @@ const handleConfirmOrder = (orderData) => {
 
   return (
     <Router>
+      {showAuth && (
+        <Auth
+          onClose={() => setShowAuth(false)}
+          onLogin={handleLogin}
+          onRegister={handleRegister}
+        />
+      )}
     <div className="container">
       <header>
         <div className="logo">
@@ -439,13 +446,6 @@ const handleConfirmOrder = (orderData) => {
           total={cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)}
           onClose={() => setShowCheckout(false)}
           onConfirmOrder={handleConfirmOrder}
-        />
-      )}
-      {showAuth && (
-        <Auth
-          onClose={() => setShowAuth(false)}
-          onLogin={handleLogin}
-          onRegister={handleRegister}
         />
       )}
     </div>
