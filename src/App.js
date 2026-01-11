@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import About from './pages/About';
@@ -11,6 +12,10 @@ import UserMenu from './components/UserMenu';
 import './App.css';
 
 function App() {
+  console.log('=== APP START ===');
+  console.log('REACT_APP_GOOGLE_CLIENT_ID from env:', process.env.REACT_APP_GOOGLE_CLIENT_ID);
+  console.log('🔍 App.js - Google Client ID:', process.env.REACT_APP_GOOGLE_CLIENT_ID);
+  console.log('🔍 Client ID length:', process.env.REACT_APP_GOOGLE_CLIENT_ID?.length);
 const sampleProducts = [
   { 
     id: 1, 
@@ -284,6 +289,7 @@ const handleConfirmOrder = (orderData) => {
   }
 
   return (
+    <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID || ''}>
     <Router>
       {showAuth && (
         <Auth
@@ -450,6 +456,7 @@ const handleConfirmOrder = (orderData) => {
       )}
     </div>
     </Router>
+    </GoogleOAuthProvider>
   );
 }
 

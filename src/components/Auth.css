@@ -200,3 +200,44 @@
     transform: translateY(0);
   }
 }
+
+.google-login-section {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.google-login-section > div {
+  margin: 0 auto 15px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  color: #666;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.divider span {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.debug-info {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 12px;
+}
