@@ -54,7 +54,7 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
               -{product.discount}%</span>
             {daysRemaining > 0 && daysRemaining <= 7 && (
               <span className="sale-timer">
-                ⏰ {daysRemaining}d
+                {daysRemaining}d
               </span>
             )}
           </div>

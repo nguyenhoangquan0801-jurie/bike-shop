@@ -24,25 +24,25 @@ function Home() {
         <h2>Tại sao chọn Bike Shop?</h2>
         <div className="features-grid">
           <div className="feature-card">
-            <div className="feature-icon">🚚</div>
+            <div className="feature-icon"></div>
             <h3>Giao hàng nhanh</h3>
             <p>Giao hàng toàn quốc trong 2-3 ngày làm việc</p>
           </div>
           
           <div className="feature-card">
-            <div className="feature-icon">🔧</div>
+            <div className="feature-icon"></div>
             <h3>Bảo hành 2 năm</h3>
             <p>Bảo hành chính hãng cho tất cả sản phẩm</p>
           </div>
           
           <div className="feature-card">
-            <div className="feature-icon">💳</div>
+            <div className="feature-icon"></div>
             <h3>Thanh toán an toàn</h3>
             <p>Đa dạng phương thức thanh toán</p>
           </div>
           
           <div className="feature-card">
-            <div className="feature-icon">👨‍🔧</div>
+            <div className="feature-icon"></div>
             <h3>Hỗ trợ kỹ thuật</h3>
             <p>Đội ngũ kỹ thuật viên chuyên nghiệp</p>
           </div>

@@ -41,7 +41,7 @@ function ProductDetail({ product, onClose, onAddToCart }) {
                 </div>
                 {daysRemaining > 0 && (
                   <div className="countdown-flag">
-                    ⏰ Còn {daysRemaining} ngày
+                    Còn {daysRemaining} ngày
                   </div>
                 )}
               </div>
@@ -73,7 +73,7 @@ function ProductDetail({ product, onClose, onAddToCart }) {
                   {product.saleEnd && daysRemaining > 0 && (
                     <div className="sale-countdown">
                       <div className="countdown-timer">
-                        <span className="countdown-icon">⏰</span>
+                        <span className="countdown-icon">Còn vài phút nữa thôi</span>
                         <span className="countdown-text">
                           Khuyến mãi kết thúc sau: <strong>{daysRemaining} ngày</strong>
                         </span>
@@ -127,7 +127,7 @@ function ProductDetail({ product, onClose, onAddToCart }) {
             
             {isOnSale && (
               <div className="sale-notice">
-                <div className="notice-icon">🎁</div>
+                <div className="notice-icon">Quà cho bạn</div>
                 <div className="notice-content">
                   <strong>Chương trình khuyến mãi:</strong>
                   <p>Áp dụng cho tất cả khách hàng. Giá khuyến mãi có thể kết thúc sớm hơn dự kiến.</p>

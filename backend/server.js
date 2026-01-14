@@ -21,7 +21,7 @@ console.log('GMAIL_APP_PASSWORD exists?', !!process.env.GMAIL_APP_PASSWORD);
 
 // Thêm middleware debug để xem request
 app.use((req, res, next) => {
-  console.log(`📨 ${new Date().toISOString()} ${req.method} ${req.url}`);
+  console.log(` ${new Date().toISOString()} ${req.method} ${req.url}`);
   console.log('Headers:', req.headers['content-type']);
   console.log('Body:', req.body);
   next();
@@ -41,7 +41,7 @@ const createTransporter = () => {
 // API gửi email chào mừng
 app.post('/send-welcome-email', async (req, res) => {
   try {
-    console.log('📧 Received request body:', req.body);
+    console.log('Received request body:', req.body);
     
     // Kiểm tra body tồn tại
     if (!req.body) {
@@ -53,7 +53,7 @@ app.post('/send-welcome-email', async (req, res) => {
     
     const { email, name } = req.body;
     
-    console.log('📧 Extracted email:', email, 'name:', name);
+    console.log('Extracted email:', email, 'name:', name);
     
     if (!email || !name) {
       return res.status(400).json({ 
@@ -67,7 +67,7 @@ app.post('/send-welcome-email', async (req, res) => {
     const mailOptions = {
       from: `"Bike Shop" <${process.env.GMAIL_USER}>`,
       to: email,
-      subject: 'Chào mừng đến với Bike Shop! 🚴',
+      subject: 'Chào mừng đến với Bike Shop!',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #2c3e50, #3498db); 
@@ -81,13 +81,13 @@ app.post('/send-welcome-email', async (req, res) => {
             <p>Cảm ơn bạn đã đăng ký tài khoản tại <strong style="color: #e74c3c;">Bike Shop</strong>.</p>
             
             <div style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #3498db;">
-              <p>🎉 <strong>Tài khoản của bạn đã được tạo thành công!</strong></p>
+              <p> <strong>Tài khoản của bạn đã được tạo thành công!</strong></p>
               <p>Bây giờ bạn có thể:</p>
               <ul>
-                <li>🛒 Mua sắm các sản phẩm xe đạp chất lượng</li>
-                <li>❤️ Lưu sản phẩm yêu thích</li>
-                <li>📦 Theo dõi đơn hàng của bạn</li>
-                <li>⭐ Đánh giá sản phẩm đã mua</li>
+                <li> Mua sắm các sản phẩm xe đạp chất lượng</li>
+                <li> Lưu sản phẩm yêu thích</li>
+                <li> Theo dõi đơn hàng của bạn</li>
+                <li> Đánh giá sản phẩm đã mua</li>
               </ul>
             </div>
             
@@ -109,9 +109,9 @@ app.post('/send-welcome-email', async (req, res) => {
           
           <div style="background: #2c3e50; color: white; padding: 20px; 
                      text-align: center; border-radius: 0 0 10px 10px; font-size: 14px;">
-            <p>🚴 <strong>Bike Shop</strong></p>
-            <p>📍 17 đường Linh Xuân, Thủ Đức, TP.HCM</p>
-            <p>📞 0702972210 | ✉️ support@bikeshop.com</p>
+            <p> <strong>Bike Shop</strong></p>
+            <p> 17 đường Linh Xuân, Thủ Đức, TP.HCM</p>
+            <p> 0702972210 | ✉️ support@bikeshop.com</p>
             <p>© ${new Date().getFullYear()} Bike Shop. Mọi quyền được bảo lưu.</p>
           </div>
         </div>
@@ -121,7 +121,7 @@ app.post('/send-welcome-email', async (req, res) => {
     // Gửi email
     const info = await transporter.sendMail(mailOptions);
     
-    console.log(`✅ Email đã gửi đến ${email}: ${info.messageId}`);
+    console.log(` Email đã gửi đến ${email}: ${info.messageId}`);
     
     res.json({ 
       success: true, 
@@ -130,7 +130,7 @@ app.post('/send-welcome-email', async (req, res) => {
     });
     
   } catch (error) {
-    console.error('❌ Lỗi gửi email:', error);
+    console.error(' Lỗi gửi email:', error);
     res.status(500).json({ 
       success: false, 
       message: 'Không thể gửi email',
@@ -166,7 +166,7 @@ app.get('/', (req, res) => {
 // Khởi động server
 app.listen(PORT, () => {
   console.log(`\n=== BIKE SHOP EMAIL SERVER ===`);
-  console.log(`✅ Server đang chạy trên http://localhost:${PORT}`);
-  console.log(`📧 API gửi email: POST http://localhost:${PORT}/send-welcome-email`);
-  console.log(`🏥 Health check: GET http://localhost:${PORT}/health\n`);
+  console.log(` Server đang chạy trên http://localhost:${PORT}`);
+  console.log(` API gửi email: POST http://localhost:${PORT}/send-welcome-email`);
+  console.log(` Health check: GET http://localhost:${PORT}/health\n`);
 });

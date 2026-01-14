@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { GoogleLogin } from '@react-oauth/google';
-import jwt_decode from 'jwt-decode'
+import {jwtDecode} from 'jwt-decode';
 import './Auth.css';
 
 const USE_BACKEND = true;
-const BACKEND_URL = 'http://localhost:5000/api';
+const BACKEND_URL = 'http://localhost:5000';
 
 function Auth({ onClose, onLogin, onRegister }) {
   const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || '';
@@ -35,7 +35,7 @@ function Auth({ onClose, onLogin, onRegister }) {
       
       // Decode Google token với jwt-decode
     const token = credentialResponse.credential;
-    const decodedToken = jwt_decode(token);
+    const decodedToken = jwtDecode(token);
     
     console.log('📄 Decoded token:', decodedToken);
     
@@ -193,6 +193,15 @@ function Auth({ onClose, onLogin, onRegister }) {
       
       if (USE_BACKEND) {
         try {
+          console.log('=== DEBUG: SENDING EMAIL REQUEST ===');
+          console.log('Backend URL:', `${BACKEND_URL}/send-welcome-email`);
+          console.log('Email data:', {
+          email: registerData.email,
+          name: registerData.fullName
+        });
+        console.log('USE_BACKEND is:', USE_BACKEND);
+        console.log('Full fetch URL:', `${BACKEND_URL}/send-welcome-email`);
+
           // Gửi email thật qua backend
           const emailResponse = await fetch(`${BACKEND_URL}/send-welcome-email`, {
             method: 'POST',
@@ -205,13 +214,14 @@ function Auth({ onClose, onLogin, onRegister }) {
               name: registerData.fullName
             })
           });
-          
-          if (!emailResponse.ok) {
-            throw new Error(`HTTP error! status: ${emailResponse.status}`);
-          }
-          
+
+          console.log('Response status:', emailResponse.status);
+          console.log('Response ok?', emailResponse.ok);
+          console.log('Response headers:', emailResponse.headers);
+        
           const emailResult = await emailResponse.json();
-          
+          console.log('Response data:', emailResult);
+
           if (emailResult.success) {
             emailSentSuccess = true;
             emailMessage = ' Đăng ký thành công! Email chào mừng đã được gửi đến hộp thư của bạn.';
@@ -221,9 +231,11 @@ function Auth({ onClose, onLogin, onRegister }) {
             emailMessage = ' Đăng ký thành công! (Nhưng không thể gửi email)';
             console.warn(' Gửi email thất bại:', emailResult.message);
           }
-        } catch (emailError) {
-          emailMessage = ' Đăng ký thành công! (Lỗi kết nối email server)';
+        } catch (emailError) {  // Dòng này đã đúng
           console.error(' Lỗi kết nối email server:', emailError);
+          console.error(' Error details:', emailError.message);
+          console.error(' Error stack:', emailError.stack);
+          emailMessage = ' Đăng ký thành công! (Lỗi kết nối email server)';
         }
       } else {
         // Nếu không dùng backend, vẫn mô phỏng
