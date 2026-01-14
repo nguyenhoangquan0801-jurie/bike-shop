@@ -98,7 +98,7 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
             fontWeight: 'bold'
           }}
         >
-          {isOnSale ? '🛒 SALE ITEM!' : 'Thêm vào giỏ'}
+          {isOnSale ? ' SALE ITEM!' : 'Thêm vào giỏ'}
         </button>
         <button 
           onClick={() => toggleWishlist(product)}
