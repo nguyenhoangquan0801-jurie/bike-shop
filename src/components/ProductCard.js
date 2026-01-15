@@ -71,23 +71,23 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
             <div className="price-row">
               <span className="product-price-sale"style={{color: '#ff0000', fontSize: '22px', fontWeight: 'bold'}}
               >
-                SALE: {formatPrice(product.price)}</span>
+                {formatPrice(product.price)}</span>
               <span className="product-price-original"style={{textDecoration: 'line-through red', color: '#666'}} 
               >
-                WAS: {formatPrice(product.originalPrice)}</span>
+                {formatPrice(product.originalPrice)}</span>
             </div>
             <div className="savings-row">
               <span className="discount-saved"
                 style={{color: '#00aa00', fontWeight: 'bold', fontSize: '14px'}} 
               >
-                SAVE: {formatPrice(savings)}!
+                TIẾT KIỆM: {formatPrice(savings)}!
               </span>
             </div>
           </>
         ) : (
           <span className="product-price"style={{color: '#0000ff', fontSize: '18px'}} 
           >
-            REGULAR: {formatPrice(product.price)}</span>
+            {formatPrice(product.price)}</span>
         )}
       </div>
 
