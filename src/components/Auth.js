@@ -1,7 +1,19 @@
 import React, { useState } from 'react';
+import { GoogleLogin } from '@react-oauth/google';
+import {jwtDecode} from 'jwt-decode';
 import './Auth.css';
 
+const USE_BACKEND = true;
+const BACKEND_URL = 'http://localhost:5000';
+
 function Auth({ onClose, onLogin, onRegister }) {
+  const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || '';
+
+  console.log('=== AUTH COMPONENT RENDER ===');
+  console.log('GOOGLE_CLIENT_ID:', GOOGLE_CLIENT_ID);
+  console.log('Client ID length:', GOOGLE_CLIENT_ID.length);
+  console.log('Should show button?', !!GOOGLE_CLIENT_ID && GOOGLE_CLIENT_ID.length > 10);
+
   const [activeTab, setActiveTab] = useState('login');
   const [loginData, setLoginData] = useState({ email: '', password: '' });
   const [registerData, setRegisterData] = useState({ 
@@ -13,6 +25,249 @@ function Auth({ onClose, onLogin, onRegister }) {
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
+
+  const handleGoogleSuccess = async (credentialResponse) => {
+    try {
+      setIsLoading(true);
+      setErrors({});
+      
+      console.log(' Đang đăng nhập với Google...');
+      
+      // Decode Google token với jwt-decode
+    const token = credentialResponse.credential;
+    const decodedToken = jwtDecode(token);
+    
+    console.log('📄 Decoded token:', decodedToken);
+    
+    const { sub: googleId, email, name: fullName, picture: avatar } = decodedToken;
+    
+    if (!email) {
+      throw new Error('Không nhận được email từ Google');
+    }
+
+    const users = JSON.parse(localStorage.getItem('users') || '[]');
+    let user = users.find(u => u.email === email);
+
+    if (!user) {
+        // Tạo user mới từ Google
+        user = {
+          id: Date.now(),
+          googleId,
+          email,
+          fullName: fullName || email.split('@')[0],
+          avatar: avatar || '',
+          isGoogleUser: true,
+          emailVerified: true,
+          createdAt: new Date().toISOString()
+        };
+        
+        users.push(user);
+        localStorage.setItem('users', JSON.stringify(users));
+        
+        // Gửi email
+        if (USE_BACKEND) {
+          try {
+            await fetch(`${BACKEND_URL}/send-welcome-email`, {
+              method: 'POST',
+              headers: { 
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+              },
+              body: JSON.stringify({
+                email: email,
+                name: fullName || email.split('@')[0]
+              })
+            });
+            console.log(` [REAL EMAIL] Gửi email chào mừng đến ${email}`);
+          } catch (emailError) {
+            console.log(' Không thể gửi email cho user Google:', emailError);
+          }
+        }
+      }else {
+        // Cập nhật thông tin cho user cũ (nếu cần)
+        user.googleId = googleId;
+        user.isGoogleUser = true;
+        localStorage.setItem('users', JSON.stringify(users));
+      }
+      
+      // Lưu thông tin đăng nhập
+      localStorage.setItem('currentUser', JSON.stringify(user));
+      localStorage.setItem('googleToken', token);
+      
+      // Thông báo thành công
+      onLogin(user);
+      onClose();
+      
+      alert(` Chào mừng ${fullName}! Đăng nhập Google thành công.`);
+      
+      } catch (error) {
+      console.error('Google login error:', error);
+      setErrors({ general: `Đăng nhập Google thất bại: ${error.message || 'Vui lòng thử lại.'}` });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleGoogleError = () => {
+    setErrors({ general: 'Đăng nhập với Google thất bại. Vui lòng thử lại.' });
+  };
+
+  // ========== EMAIL/PASSWORD LOGIN ==========
+  const handleLoginSubmit = async (e) => {
+    e.preventDefault();
+    const formErrors = validateLogin();
+    if (Object.keys(formErrors).length > 0) {
+      setErrors(formErrors);
+      return;
+    }
+
+    setIsLoading(true);
+    setErrors({});
+    
+    try {
+      // Tìm user trong localStorage
+      const users = JSON.parse(localStorage.getItem('users') || '[]');
+      const user = users.find(u => u.email === loginData.email && u.password === loginData.password);
+      
+      if (user) {
+        // Lưu thông tin đăng nhập
+        localStorage.setItem('currentUser', JSON.stringify(user));
+        
+        // Ghi log thông báo đăng nhập
+        console.log(` [SIMULATED] Gửi thông báo đăng nhập đến ${user.email}`);
+        console.log(` ${user.fullName} vừa đăng nhập vào tài khoản lúc ${new Date().toLocaleString('vi-VN')}`);
+        
+        // Thông báo thành công
+        onLogin(user);
+        onClose();
+        
+        alert(` Chào mừng ${user.fullName} quay trở lại!`);
+      } else {
+        setErrors({ general: 'Email hoặc mật khẩu không đúng' });
+      }
+      
+      } catch (error) {
+        console.error('Login error:', error);
+        setErrors({ general: 'Đăng nhập thất bại. Vui lòng thử lại.' });
+      } finally {
+        setIsLoading(false);
+      }
+    };
+  // ========== REGISTRATION ==========
+  const handleRegisterSubmit = async (e) => {
+    e.preventDefault();
+    const formErrors = validateRegister();
+    if (Object.keys(formErrors).length > 0) {
+      setErrors(formErrors);
+      return;
+    }
+
+    setIsLoading(true);
+    setErrors({});
+    
+    try {
+      // Kiểm tra trong localStorage
+      const users = JSON.parse(localStorage.getItem('users') || '[]');
+      
+      // Kiểm tra email đã tồn tại
+      if (users.some(u => u.email === registerData.email)) {
+        setErrors({ email: 'Email này đã được đăng ký' });
+        return;
+      }
+
+      // Tạo user mới
+      const newUser = {
+        id: Date.now(),
+        fullName: registerData.fullName,
+        email: registerData.email,
+        password: registerData.password,
+        emailVerified: false,
+        createdAt: new Date().toISOString()
+      };
+
+      users.push(newUser);
+      localStorage.setItem('users', JSON.stringify(users));
+      
+      let emailSentSuccess = false;
+      let emailMessage = '';
+      
+      if (USE_BACKEND) {
+        try {
+          console.log('=== DEBUG: SENDING EMAIL REQUEST ===');
+          console.log('Backend URL:', `${BACKEND_URL}/send-welcome-email`);
+          console.log('Email data:', {
+          email: registerData.email,
+          name: registerData.fullName
+        });
+        console.log('USE_BACKEND is:', USE_BACKEND);
+        console.log('Full fetch URL:', `${BACKEND_URL}/send-welcome-email`);
+
+          // Gửi email thật qua backend
+          const emailResponse = await fetch(`${BACKEND_URL}/send-welcome-email`, {
+            method: 'POST',
+            headers: { 
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+              email: registerData.email,
+              name: registerData.fullName
+            })
+          });
+
+          console.log('Response status:', emailResponse.status);
+          console.log('Response ok?', emailResponse.ok);
+          console.log('Response headers:', emailResponse.headers);
+        
+          const emailResult = await emailResponse.json();
+          console.log('Response data:', emailResult);
+
+          if (emailResult.success) {
+            emailSentSuccess = true;
+            emailMessage = ' Đăng ký thành công! Email chào mừng đã được gửi đến hộp thư của bạn.';
+
+            console.log(' Email thật đã được gửi:', emailResult.messageId);
+          } else {
+            emailMessage = ' Đăng ký thành công! (Nhưng không thể gửi email)';
+            console.warn(' Gửi email thất bại:', emailResult.message);
+          }
+        } catch (emailError) {  // Dòng này đã đúng
+          console.error(' Lỗi kết nối email server:', emailError);
+          console.error(' Error details:', emailError.message);
+          console.error(' Error stack:', emailError.stack);
+          emailMessage = ' Đăng ký thành công! (Lỗi kết nối email server)';
+        }
+      } else {
+        // Nếu không dùng backend, vẫn mô phỏng
+        console.log(` [SIMULATED] Gửi email chào mừng đến ${registerData.email}`);
+        console.log(` [SIMULATED] Gửi email xác nhận đến ${registerData.email}`);
+        emailMessage = ' Đăng ký thành công! Email xác nhận đã được gửi (mô phỏng).';
+      }
+      
+      // Hiển thị thông báo thành công
+      setSuccessMessage(emailMessage);
+      
+      // Tự động chuyển sang tab đăng nhập sau 3 giây
+      setTimeout(() => {
+        setActiveTab('login');
+        setSuccessMessage('');
+        setRegisterData({ 
+          fullName: '', 
+          email: '', 
+          password: '', 
+          confirmPassword: '' 
+        });
+        // Tự động điền email vào form đăng nhập
+        setLoginData(prev => ({ ...prev, email: registerData.email }));
+      }, 3000);
+      
+      } catch (error) {
+        console.error('Register error:', error);
+        setErrors({ general: 'Đăng ký thất bại. Vui lòng thử lại.' });
+      } finally {
+        setIsLoading(false);
+      }
+    };
 
   const handleLoginChange = (e) => {
     const { name, value } = e.target;
@@ -49,75 +304,6 @@ function Auth({ onClose, onLogin, onRegister }) {
     return newErrors;
   };
 
-  const handleLoginSubmit = async (e) => {
-    e.preventDefault();
-    const formErrors = validateLogin();
-    if (Object.keys(formErrors).length > 0) {
-      setErrors(formErrors);
-      return;
-    }
-
-    setIsLoading(true);
-    try {
-      const users = JSON.parse(localStorage.getItem('users') || '[]');
-      const user = users.find(u => u.email === loginData.email && u.password === loginData.password);
-      
-      if (user) {
-        localStorage.setItem('currentUser', JSON.stringify(user));
-        onLogin(user);
-        onClose();
-      } else {
-        setErrors({ general: 'Email hoặc mật khẩu không đúng' });
-      }
-    } catch (error) {
-      setErrors({ general: 'Đã có lỗi xảy ra' });
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleRegisterSubmit = async (e) => {
-    e.preventDefault();
-    const formErrors = validateRegister();
-    if (Object.keys(formErrors).length > 0) {
-      setErrors(formErrors);
-      return;
-    }
-
-    setIsLoading(true);
-    try {
-      const users = JSON.parse(localStorage.getItem('users') || '[]');
-      
-      // Check if email already exists
-      if (users.some(u => u.email === registerData.email)) {
-setErrors({ email: 'Email này đã được đăng ký' });
-        return;
-      }
-
-      const newUser = {
-        id: Date.now(),
-        fullName: registerData.fullName,
-        email: registerData.email,
-        password: registerData.password,
-        createdAt: new Date().toISOString()
-      };
-
-      users.push(newUser);
-      localStorage.setItem('users', JSON.stringify(users));
-      
-      setSuccessMessage('Đăng ký thành công! Vui lòng đăng nhập.');
-      setTimeout(() => {
-        setActiveTab('login');
-        setSuccessMessage('');
-        setRegisterData({ fullName: '', email: '', password: '', confirmPassword: '' });
-      }, 2000);
-    } catch (error) {
-      setErrors({ general: 'Đã có lỗi xảy ra' });
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
   const handleSwitchToRegister = () => {
     setActiveTab('register');
     setErrors({});
@@ -149,6 +335,24 @@ setErrors({ email: 'Email này đã được đăng ký' });
             Đăng ký
           </button>
         </div>
+
+        {GOOGLE_CLIENT_ID && (
+          <div className="google-login-section">
+            <GoogleLogin
+              onSuccess={handleGoogleSuccess}
+              onError={handleGoogleError}
+              theme="filled_blue"
+              size="large"
+              text="signin_with"
+              shape="rectangular"
+              locale="vi"
+              width="350"
+            />
+            <div className="divider">
+              <span>hoặc sử dụng email</span>
+            </div>
+          </div>
+        )}
 
         {activeTab === 'login' ? (
           <form className="auth-form" onSubmit={handleLoginSubmit}>
@@ -183,7 +387,7 @@ setErrors({ email: 'Email này đã được đăng ký' });
             </button>
 
             <div className="auth-switch">
-Chưa có tài khoản? <button type="button" onClick={handleSwitchToRegister}>Đăng ký ngay</button>
+              Chưa có tài khoản? <button type="button" onClick={handleSwitchToRegister}>Đăng ký ngay</button>
             </div>
           </form>
         ) : (
@@ -245,6 +449,13 @@ Chưa có tài khoản? <button type="button" onClick={handleSwitchToRegister}>�
 
             <div className="auth-switch">
               Đã có tài khoản? <button type="button" onClick={handleSwitchToLogin}>Đăng nhập</button>
+            </div>
+            <div className="debug-info">
+              <small>
+                {USE_BACKEND 
+                  ? ' Email thật sẽ được gửi qua backend' 
+                  : ' Email được mô phỏng trong Console (F12)'}
+              </small>
             </div>
           </form>
         )}

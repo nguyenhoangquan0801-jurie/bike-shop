@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import About from './pages/About';
@@ -11,49 +12,112 @@ import UserMenu from './components/UserMenu';
 import './App.css';
 
 function App() {
+  console.log('=== APP START ===');
+  console.log('REACT_APP_GOOGLE_CLIENT_ID from env:', process.env.REACT_APP_GOOGLE_CLIENT_ID);
+  console.log('🔍 App.js - Google Client ID:', process.env.REACT_APP_GOOGLE_CLIENT_ID);
+  console.log('🔍 Client ID length:', process.env.REACT_APP_GOOGLE_CLIENT_ID?.length);
 const sampleProducts = [
   { 
     id: 1, 
     name: "Xe đạp địa hình", 
-    price: 8500000, 
+    price: 6800000, 
+    originalPrice: 8500000,
+    discount: 20,
     image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
-    category: "Địa hình" 
+    category: "Địa hình",
+    isOnSale: true,
+    saleEnd: "2024-12-31",
+    description: "Xe đạp địa hình chuyên nghiệp, phù hợp với mọi địa hình",
+    specs: ["Khung nhôm hợp kim", "Phuộc trước lò xo", "24 tốc độ", "Lốp 27.5 inch"]
   },
   { 
     id: 2, 
     name: "Xe đạp đường phố", 
-    price: 6500000, 
+    price: 4800000, 
+    originalPrice: 6000000,
+    discount: 20,
     image: "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
-    category: "Đường phố" 
+    category: "Đường phố",
+    isOnSale: true,
+    saleEnd: "2024-11-30",
+    description: "Xe đạp đường phố thiết kế thể thao",
+    specs: ["Khung thép carbon", "Trọng lượng nhẹ", "Tay lái cong", "Lốp 700C"]
   },
   { 
     id: 3, 
     name: "Xe đạp thể thao", 
-    price: 12000000, 
+    price: 9600000,
+    originalPrice: 12000000,
+    discount: 20,
     image: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
-    category: "Thể thao" 
+    category: "Thể thao",
+    isOnSale: true,
+    description: "Xe đạp thể thao tốc độ cao",
+    specs: ["Khung carbon", "Nhóm líp Shimano", "Trọng lượng 8.5kg", "Aerodynamic design"]
   },
   { 
     id: 4, 
     name: "Xe đạp đua", 
-    price: 15000000, 
+    price: 12000000, 
+    originalPrice: 15000000,
+    discount: 20,
     image: "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
-    category: "Đua" 
+    category: "Đua",
+    isOnSale: true,
+    saleEnd: "2024-12-15",
+    description: "Xe đạp đua chuyên nghiệp dành cho các tay đua",
+    specs: ["Khung carbon cao cấp", "Hệ thống phanh đĩa", "11 tốc độ", "Trọng lượng 7.8kg"]
   },
   { 
     id: 5, 
     name: "Xe đạp trẻ em", 
-    price: 3500000, 
+    price: 2800000, 
+    originalPrice: 3500000,
+    discount: 20,
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80", 
-    category: "Trẻ em" 
+    category: "Trẻ em",
+    isOnSale: true,
+    description: "Xe đạp trẻ em an toàn, thiết kế ngộ nghĩnh",
+    specs: ["Bánh phụ", "Tay cầm bọc đệm", "Kích thước 16 inch", "Màu sắc tươi sáng"]
   },
   { 
     id: 6, 
-    name: "Xe đạp gấp", 
-    price: 7500000, 
+    name: "Xe đạp gấp",
+    price: 9000000,
+    originalPrice: 12000000,
+    discount: 25,
     image: "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60", 
-    category: "Gấp" 
-  }];
+    category: "Gấp",
+    isOnSale: true,
+    saleEnd: "2024-11-20",
+    description: "Xe đạp gấp tiện lợi, chất lượng cao",
+    specs: ["Gấp gọn trong 10s", "Trọng lượng 12kg", "Khung hợp kim nhôm", "Lốp 20 inch"]
+  },
+  { 
+    id: 7, 
+    name: "Xe đạp địa hình Standard", 
+    price: 7500000,
+    originalPrice: 7500000,
+    discount: 0,
+    image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=70", 
+    category: "Địa hình",
+    isOnSale: false,
+    description: "Xe đạp địa hình tiêu chuẩn",
+    specs: ["Khung thép", "Phuộc trước", "21 tốc độ", "Lốp 26 inch"]
+  },
+  { 
+    id: 8, 
+    name: "Xe đạp thể thao Basic", 
+    price: 4500000,
+    originalPrice: 4500000,
+    discount: 0,
+    image: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=70", 
+    category: "Thể thao",
+    isOnSale: false,
+    description: "Xe đạp thể thao cơ bản",
+    specs: ["Khung thép", "Tay lái thẳng", "7 tốc độ", "Trọng lượng 15kg"]
+  }
+];
 
   const [products, setProducts] = useState([]);
 
@@ -92,7 +156,7 @@ const sampleProducts = [
     const fetchProducts = async () => {
       try {
         setLoading(true);
-const data = await productsAPI.getAllProducts();
+        const data = await productsAPI.getAllProducts();
         setProducts(data);
         setError(null);
       } catch (err) {
@@ -202,7 +266,8 @@ const handleConfirmOrder = (orderData) => {
       status: 'pending',
       date: new Date().toISOString()
     };
-const userOrders = JSON.parse(localStorage.getItem(`orders_${currentUser.id}`) || '[]');
+    
+    const userOrders = JSON.parse(localStorage.getItem(`orders_${currentUser.id}`) || '[]');
     userOrders.push(order);
     localStorage.setItem(`orders_${currentUser.id}`, JSON.stringify(userOrders));
     setUserOrders(userOrders);
@@ -224,7 +289,15 @@ const userOrders = JSON.parse(localStorage.getItem(`orders_${currentUser.id}`) |
   }
 
   return (
+    <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID || ''}>
     <Router>
+      {showAuth && (
+        <Auth
+          onClose={() => setShowAuth(false)}
+          onLogin={handleLogin}
+          onRegister={handleRegister}
+        />
+      )}
     <div className="container">
       <header>
         <div className="logo">
@@ -291,7 +364,8 @@ const userOrders = JSON.parse(localStorage.getItem(`orders_${currentUser.id}`) |
           <Route path="/about" element={<About />} />
         </Routes>
   </main>
-{/* Cart sidebar */}
+
+    {/* Cart sidebar */}
       <aside className="cart">
         <h3>Giỏ hàng ({cart.reduce((total, item) => total + item.quantity, 0)})</h3>
         {cart.length === 0 ? (
@@ -368,7 +442,7 @@ const userOrders = JSON.parse(localStorage.getItem(`orders_${currentUser.id}`) |
       {selectedProduct && (
         <ProductDetail
           product={selectedProduct}
-onClose={closeProductDetail}
+          onClose={closeProductDetail}
           onAddToCart={addToCartFromModal}
         />
       )}
@@ -380,15 +454,9 @@ onClose={closeProductDetail}
           onConfirmOrder={handleConfirmOrder}
         />
       )}
-      {showAuth && (
-        <Auth
-          onClose={() => setShowAuth(false)}
-          onLogin={handleLogin}
-          onRegister={handleRegister}
-        />
-      )}
     </div>
     </Router>
+    </GoogleOAuthProvider>
   );
 }
 
