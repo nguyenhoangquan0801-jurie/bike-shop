@@ -266,7 +266,7 @@ async function sendVerificationEmail(to, name, verificationLink) {
   const mailOptions = {
     from: `"Bike Shop" <${process.env.EMAIL_USER}>`,
     to,
-    subject: '✅ Xác nhận email - Bike Shop',
+    subject: ' Xác nhận email - Bike Shop',
     html: `
       <div style="font-family: Arial, sans-serif;">
         <h2>Xin chào ${name}!</h2>
@@ -291,7 +291,7 @@ async function sendLoginNotification(to, name) {
   const mailOptions = {
     from: `"Bike Shop" <${process.env.EMAIL_USER}>`,
     to,
-    subject: '🔒 Thông báo đăng nhập - Bike Shop',
+    subject: ' Thông báo đăng nhập - Bike Shop',
     html: `
       <div style="font-family: Arial, sans-serif;">
         <p>Xin chào ${name},</p>
@@ -316,7 +316,7 @@ async function sendOrderConfirmationEmail(to, name, order) {
   const mailOptions = {
     from: `"Bike Shop" <${process.env.EMAIL_USER}>`,
     to,
-    subject: `📦 Xác nhận đơn hàng #${order.id} - Bike Shop`,
+    subject: ` Xác nhận đơn hàng #${order.id} - Bike Shop`,
     html: `
       <div style="font-family: Arial, sans-serif;">
         <h2>Đơn hàng đã được xác nhận!</h2>
@@ -339,7 +339,7 @@ async function sendOrderConfirmationEmail(to, name, order) {
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 Auth/Email server running on port ${PORT}`);
-  console.log(`📧 Email service: ${process.env.EMAIL_USER ? 'Ready' : 'Not configured'}`);
-  console.log(`🔐 Google OAuth: ${CLIENT_ID ? 'Ready' : 'Not configured'}`);
+  console.log(` Auth/Email server running on port ${PORT}`);
+  console.log(` Email service: ${process.env.EMAIL_USER ? 'Ready' : 'Not configured'}`);
+  console.log(` Google OAuth: ${CLIENT_ID ? 'Ready' : 'Not configured'}`);
 });
