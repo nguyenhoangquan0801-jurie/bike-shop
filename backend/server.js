@@ -72,7 +72,7 @@ app.post('/send-welcome-email', async (req, res) => {
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #2c3e50, #3498db); 
                     color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
-            <h1 style="margin: 0;">🚴 Bike Shop</h1>
+            <h1 style="margin: 0;"> Bike Shop</h1>
             <p style="opacity: 0.9;">Chuyên xe đạp chất lượng cao</p>
           </div>
           

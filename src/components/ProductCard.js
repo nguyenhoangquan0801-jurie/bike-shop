@@ -29,22 +29,22 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
 
   return (
     <div className={`product-card ${isOnSale ? 'sale-item' : ''}`}
-    style={testStyle} // THÊM VÀO ĐÂY
+    style={testStyle}
       data-product-id={product.id}
       data-is-on-sale={isOnSale}
       >
 
       <div className="product-image-container">
-        <img 
-          src={product.image} 
-          alt={product.name} 
+        <img
+          src={product.image}
+          alt={product.name}
           onClick={() => openProductDetail(product)}
           className="product-image"
         />
         {isOnSale && (
           <div className="product-badges">
             <span className="discount-badge"
-            style={{ // THÊM STYLE TEST CHO BADGE
+            style={{
                 background: '#ff0000', 
                 color: '#ffffff', 
                 fontSize: '20px',
