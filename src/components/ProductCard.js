@@ -93,12 +93,12 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
 
       <div className="product-actions">
         <button onClick={() => addToCart(product)} className="add-to-cart-btn"style={{ 
-            background: isOnSale ? '#ff0000' : '#3498db',
+            background: isOnSale ? '#3498db' : '#3498db',
             color: 'white',
             fontWeight: 'bold'
           }}
         >
-          {isOnSale ? ' SALE ITEM!' : 'Thêm vào giỏ'}
+          {isOnSale ? ' Thêm vào giỏ' : 'Thêm vào giỏ'}
         </button>
         <button 
           onClick={() => toggleWishlist(product)}
