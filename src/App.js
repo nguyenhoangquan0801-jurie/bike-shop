@@ -239,7 +239,7 @@ const sampleProducts = [
 
   const handleLogin = (user) => {
   setCurrentUser(user);
-  alert(`Chào mừng ${user.fullName} đã quay trở lại!`);
+  alert(`Chào mừng ${user.fullName} đã đến với chúng tôi!`);
 };
 
 const handleRegister = (user) => {

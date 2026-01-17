@@ -104,7 +104,7 @@ function ProductCard({ product, addToCart, toggleWishlist, isInWishlist, openPro
           onClick={() => toggleWishlist(product)}
           className={`wishlist-btn ${isInWishlist ? 'active' : ''}`}
         >
-          {isInWishlist ? '❤️' : '🤍'}
+          {isInWishlist ? 'Yêu thích' : 'Thêm yêu thích'}
         </button>
       </div>
     </div>

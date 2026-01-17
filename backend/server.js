@@ -71,7 +71,7 @@ app.post('/send-welcome-email', async (req, res) => {
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #2c3e50, #3498db); 
-                     color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
+                    color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
             <h1 style="margin: 0;">🚴 Bike Shop</h1>
             <p style="opacity: 0.9;">Chuyên xe đạp chất lượng cao</p>
           </div>
@@ -93,7 +93,7 @@ app.post('/send-welcome-email', async (req, res) => {
             
             <div style="text-align: center; margin: 30px 0;">
               <a href="http://localhost:3000/products" 
-                 style="background: linear-gradient(135deg, #3498db, #2c3e50); 
+                style="background: linear-gradient(135deg, #3498db, #2c3e50); 
                         color: white; padding: 15px 40px; 
                         text-decoration: none; border-radius: 25px;
                         display: inline-block; font-weight: bold;">
@@ -108,7 +108,7 @@ app.post('/send-welcome-email', async (req, res) => {
           </div>
           
           <div style="background: #2c3e50; color: white; padding: 20px; 
-                     text-align: center; border-radius: 0 0 10px 10px; font-size: 14px;">
+                    text-align: center; border-radius: 0 0 10px 10px; font-size: 14px;">
             <p> <strong>Bike Shop</strong></p>
             <p> 17 đường Linh Xuân, Thủ Đức, TP.HCM</p>
             <p> 0702972210 | ✉️ support@bikeshop.com</p>

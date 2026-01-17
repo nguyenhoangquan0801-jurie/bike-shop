@@ -15,7 +15,7 @@ function Home() {
           </Link>
         </div>
         <div className="hero-image">
-          <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Bike Shop" />
+          <img src="https://png.pngtree.com/element_our/20190602/ourlarge/pngtree-red-riding-bicycle-illustration-image_1402467.jpg" alt="Bike Shop" />
         </div>
       </section>
 

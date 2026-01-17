@@ -23,5 +23,5 @@ if (pass.length === 16 && !pass.includes(' ')) {
   console.log('\n Password format WRONG!');
   console.log('   Expected: 16 characters, NO spaces');
   console.log('   Example:  abcdefghijklmnop');
-  console.log('\n🔧 Fix: Remove spaces from GMAIL_APP_PASSWORD in .env file');
+  console.log('\n Fix: Remove spaces from GMAIL_APP_PASSWORD in .env file');
 }
